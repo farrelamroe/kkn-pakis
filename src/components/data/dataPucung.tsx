@@ -1,12 +1,8 @@
 export const dataPucung = [
   {
-    image: "/hero.png",
-    title: "Pertemuan dengan Kepala Dusun",
-    href: "pertemuan-dengan-kepala-dusun",
+    image: "/pucung/week-1-pucung-1.jpeg",
+    title: "Keindahan Pucung",
+    href: "keindahan-pucung",
   },
-  {
-    image: "/hero.png",
-    title: "Diskusi dengan Kepala Dusun",
-    href: "diskusi-dengan-kepala-dusun",
-  },
+
 ];

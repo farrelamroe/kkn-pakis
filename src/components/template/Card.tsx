@@ -6,13 +6,13 @@ export function Card(props: any) {
 
   return (
     <>
-      <div className="h-full max-h-[288px] w-full max-w-[305px] rounded-[14px] bg-primary border hover:cursor-pointer hover:scale-110 duration-300">
+      <div className="h-full max-h-[288px] w-full lg:max-w-[305px] rounded-[14px] border bg-primary duration-300 hover:scale-110 hover:cursor-pointer">
         <Image
           src={image}
           alt="image"
           width={305}
           height={180}
-          className="rounded-[14px]"
+          className="rounded-[14px] max-h-[180px] maw-w-[180px] h-full w-full object-cover"
         />
         <H4 className="px-[20px] py-[32px] font-jakarta font-bold">{title}</H4>
       </div>

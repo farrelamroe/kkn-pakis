@@ -12,7 +12,7 @@ export function Navbar() {
 
   return (
     <>
-      <div className="fixed top-0 z-[110] h-[82px] w-[100%] bg-primary text-center">
+      <div className="fixed top-0 z-[110] h-[82px] w-[100%] bg-primary text-center font-jakarta">
         <div className="relative flex h-full flex-row items-center justify-between px-5 shadow-md">
           <Link href="/">
             <Image
@@ -87,7 +87,7 @@ export function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-y-hidden bg-primary pt-24 text-xl text-white duration-1000 lg:hidden ${
+        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-y-hidden bg-primary pt-24 text-xl text-white duration-1000 lg:hidden font-jakarta ${
           active ? "max-w-[75vw]" : "max-w-0"
         }`}
       >

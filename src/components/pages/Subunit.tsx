@@ -1,4 +1,11 @@
-import { Container, H1, H3, MainSubunitHero, SubunitCard, dataSubunit } from "@/components";
+import {
+  Container,
+  H1,
+  H3,
+  MainSubunitHero,
+  SubunitCard,
+  dataSubunit,
+} from "@/components";
 
 export function Subunit() {
   return (
@@ -14,7 +21,7 @@ export function Subunit() {
           Berikut adalah Sub-Unit dari Melukis Pakis di Desa Pogalan dan
           Ketundan
         </H3>
-        <div className="mt-[48px] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-[28px] gap-y-[40px]">
+        <div className="mt-[48px] grid grid-cols-1 gap-x-[28px] gap-y-[40px] sm:grid-cols-2 xl:grid-cols-4 mb-[100px]">
           {dataSubunit.map(({ image, title, href }: any) => {
             return (
               <>

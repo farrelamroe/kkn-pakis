@@ -1,4 +1,4 @@
-import { Article, ContainerArticle, Navbar } from "@/components";
+import { ArticleSemimpen, ContainerArticle, Navbar } from "@/components";
 import Image from "next/image";
 
 export async function getStaticPaths() {
@@ -24,7 +24,7 @@ export default function SemimpenArticle({ href }: any) {
     <>
       <Navbar />
       <ContainerArticle>
-        <Article href={href} />
+        <ArticleSemimpen href={href} />
       </ContainerArticle>
     </>
   );

@@ -5,7 +5,7 @@ export const dataSubunit = [
     href: "gerdu",
   },
   {
-    image: "/hero.png",
+    image: "/pucung/week-1-pucung-1.jpeg",
     title: "Pucung",
     href: "pucung",
   },

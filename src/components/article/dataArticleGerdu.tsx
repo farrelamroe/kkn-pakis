@@ -1,5 +1,5 @@
 type Article = {
-  header: string;
+  image: string;
   location: string;
   title: string;
   text: JSX.Element;
@@ -11,7 +11,7 @@ type DataArticleGerdu = {
 
 export const dataArticleGerdu: DataArticleGerdu = {
   "pertemuan-dengan-kepala-dusun": {
-    header: "/hero.png",
+    image: "/hero.png",
     location: "Rumah Pak Bayan",
     title: "Pertemuan dengan Kepala Dusun",
     text: (
@@ -28,7 +28,7 @@ export const dataArticleGerdu: DataArticleGerdu = {
     ),
   },
   "diskusi-dengan-kepala-dusun": {
-    header: "/hero.png",
+    image: "/hero.png",
     location: "Rumah Pak Bayan",
     title: "Diskusi dengan Kepala Dusun",
     text: (
