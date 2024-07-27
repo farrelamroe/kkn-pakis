@@ -1,13 +1,16 @@
+import { Navbar } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Have I Eaten - Beranda</title>
-        <link rel="icon" href="" />
+        <title>KKN-PPN UGM Pakis 2024</title>
+        <link rel="icon" href="/logo-pakis.png" />
       </Head>
-      <main></main>
+      <main>
+        <Navbar />
+      </main>
     </>
   );
 }

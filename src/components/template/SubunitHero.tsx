@@ -9,7 +9,7 @@ export function SubunitHero(props: any) {
         style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
       >
         <div className="relative top-[35%] xs:top-[40%] lg:top-[50%] px-[20px] lg:px-[54px]">
-          <H1 className=" font-alatsi font-bold text-primary">{title}</H1>
+          <H1 className=" font-alatsi font-bold text-white">{title}</H1>
           <H4 className="max-w-[661px] pb-[72px] pt-[20px] font-jakarta text-white">
             {description}
           </H4>
