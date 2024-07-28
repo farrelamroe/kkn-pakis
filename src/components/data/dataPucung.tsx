@@ -4,5 +4,4 @@ export const dataPucung = [
     title: "Keindahan Pucung",
     href: "keindahan-pucung",
   },
-
 ];

@@ -1,8 +1,8 @@
 export const dataSemimpen = [
   {
     image: "/hero.png",
-    title: "Pertemuan dengan Kepala Dusun",
-    href: "pertemuan-dengan-kepala-dusun",
+    title: "Profil Dusun Semimpen",
+    href: "profil-dusun-semimpen",
   },
   {
     image: "/hero.png",

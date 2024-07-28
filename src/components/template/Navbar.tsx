@@ -12,17 +12,17 @@ export function Navbar() {
 
   return (
     <>
-      <div className="fixed top-0 z-[110] h-[82px] w-[100%] bg-primary text-center font-jakarta rounded-b-[8px]">
-        <div className="relative flex h-full flex-row items-center justify-between px-5 shadow-md rounded-b-[8px]">
-            <Link href="/">
-              <Image
-                src="/logo-pakis.png"
-                width={50}
-                height={100}
-                alt=""
-                className="relative items-center"
-              />
-            </Link>
+      <div className="fixed top-0 z-[110] h-[82px] w-[100%] rounded-b-[8px] bg-primary text-center font-jakarta">
+        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-md">
+          <Link href="/">
+            <Image
+              src="/logo-pakis.png"
+              width={50}
+              height={100}
+              alt=""
+              className="relative items-center"
+            />
+          </Link>
           <div className="relative z-40 hidden flex-row items-center justify-center gap-x-5 text-xl text-secondary lg:flex lg:pr-20">
             <Link href="/">
               <p className="duration-300 hover:cursor-pointer hover:font-bold">

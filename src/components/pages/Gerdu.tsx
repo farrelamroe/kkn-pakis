@@ -1,4 +1,13 @@
-import { Card, Container, H1, H3, SubunitHero, Text, dataGerdu, ArrowBack } from "@/components";
+import {
+  Card,
+  Container,
+  H1,
+  H3,
+  SubunitHero,
+  Text,
+  dataGerdu,
+  ArrowBack,
+} from "@/components";
 import Image from "next/image";
 
 export function Gerdu() {

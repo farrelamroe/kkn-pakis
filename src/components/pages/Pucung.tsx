@@ -1,4 +1,12 @@
-import { ArrowBack, Card, Container, H1, H3, SubunitHero, dataPucung } from "@/components";
+import {
+  ArrowBack,
+  Card,
+  Container,
+  H1,
+  H3,
+  SubunitHero,
+  dataPucung,
+} from "@/components";
 
 export function Pucung() {
   return (

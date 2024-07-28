@@ -1,5 +1,5 @@
 export function Button(props: any) {
-  const { href, text, size, color, className, blank } = props;
+  const { href, text, size, color, className, buttonCount } = props;
   let buttonSize, buttonColor;
   if (size === "xs") {
     buttonSize =
@@ -15,34 +15,25 @@ export function Button(props: any) {
       "px-[28px] py-[10px] outline-3 -outline-offset-2 leading-[16px]";
   }
 
-  if (color === "primary-100") {
+  if (color === "primary") {
     buttonColor =
-      "outline-primary-100 hover:outline-primary-100 bg-primary-100 hover:text-primary-100";
-  } else if (color === "primary-200") {
+      "outline-primary hover:outline-primary bg-primary hover:text-primary";
+  } else if (color === "secondary") {
     buttonColor =
-      "outline-primary-200 hover:outline-primary-200 bg-primary-200 hover:text-primary-200";
-  } else if (color === "primary-300") {
-    buttonColor =
-      "outline-primary-300 hover:outline-primary-300 bg-primary-300 hover:text-primary-300";
-  } else if (color === "primary-400") {
-    buttonColor =
-      "outline-primary-400 hover:outline-primary-400 bg-primary-400 hover:text-primary-400";
-  } else if (color === "secondary-100") {
-    buttonColor =
-      "outline-secondary-100 hover:outline-secondary-100 bg-secondary-100 hover:text-secondary-100";
-  } else if (color === "secondary-200") {
-    buttonColor =
-      "outline-secondary-200 hover:outline-secondary-200 bg-secondary-200 hover:text-secondary-200";
-  } else if (color === "secondary-300") {
-    buttonColor =
-      "outline-secondary-300 hover:outline-secondary-300 bg-secondary-300 hover:text-secondary-300";
+      "outline-secondary hover:outline-secondary bg-secondary hover:text-secondary";
   }
-  return (
-    <button
-      className={`font-urbanist relative h-fit w-fit rounded-full text-white outline duration-300 hover:bg-white ${buttonSize} ${buttonColor} ${className}`}
-      onClick={() => window.open(href)}
-    >
-      {text}
-    </button>
-  );
+
+  const buttons = [];
+  for (let i = 0; i < buttonCount; i++) {
+    buttons.push(
+      <button
+        key={i}
+        className={`relative h-fit w-fit rounded-[10px] font-jakarta text-white outline duration-300 hover:bg-white ${buttonSize} ${buttonColor} ${className}`}
+        onClick={() => (window.location.href = href[i])}
+      >
+        {text[i]}
+      </button>,
+    );
+  }
+  return <>{buttons}</>;
 }
