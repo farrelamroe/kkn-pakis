@@ -13,14 +13,14 @@ type DataArticleGerdu = {
 };
 
 export const dataArticleGerdu: DataArticleGerdu = {
-  "profil-dusun-gerdu": {
+  "pesona-gerdu": {
     image: "/gerdu/week-1-gerdu-2.png",
     location: "Dusun Gerdu, Kelurahan Pogalan",
-    title: "Profil Dusun Gerdu",
+    title: "Pesona Gerdu",
     text: (
       <>
         <Text size="lg" color="secondary" className="indent-10">
-          Dusun Gerdu, merupakan salah satu dusun yang terletak di kaki Gunung
+          Dusun Gerdu merupakan salah satu dusun yang terletak di kaki Gunung
           Merbabu di Desa Pogalan, Kecamatan Pakis, Kabupaten Magelang, Provinsi
           Jawa Tengah. Dusun ini memiliki keindahan alam yang sangat cantik
           dengan pemandangan utama Gunung Merbabu. Selain itu, dari dusun ini
@@ -35,15 +35,6 @@ export const dataArticleGerdu: DataArticleGerdu = {
           Grenden.
         </Text>
         <br />
-        <Text size="lg" color="secondary" className="indent-10">
-          Dibalik keindahan alam yang terdapat pada Dusun Gerdu ini, terdapat
-          sejarah yang jarang orang ketahui. Yaitu tentang pahlawan bernama
-          Letkol dr. Soedjono yang merupakan seorang dokter Brigade Kuda Putih.
-          Letkol dr. Soedjono lahir di Banyumas, Februari 1915 yang mana
-          dr.Soedjono merupakan dokter lulusan sekolah kedokteran yang didirikan
-          oleh Jepang.
-        </Text>
-        <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
           <Image
             src="/gerdu/week-1-gerdu-1.png"
@@ -53,6 +44,15 @@ export const dataArticleGerdu: DataArticleGerdu = {
             className="aspect-auto h-full max-h-[325px] w-full max-w-[562px] rounded-[24px] object-cover"
           />
           <div>
+          <Text size="lg" color="secondary" className="indent-10">
+          Dibalik keindahan alam yang terdapat pada Dusun Gerdu ini, terdapat
+          sejarah yang jarang orang ketahui. Yaitu tentang pahlawan bernama
+          Letkol dr. Soedjono yang merupakan seorang dokter Brigade Kuda Putih.
+          Letkol dr. Soedjono lahir di Banyumas, Februari 1915 yang mana
+          dr.Soedjono merupakan dokter lulusan sekolah kedokteran yang didirikan
+          oleh Jepang.
+        </Text>
+        <br />
             <Text size="lg" color="secondary" className="indent-10">
               Perjalanan perjuangan dr.Soedjono tidaklah mudah. Sebelum akhirnya
               berada di Magelang, dr.Soedjono pernah mengabdi di Divisi
@@ -62,7 +62,7 @@ export const dataArticleGerdu: DataArticleGerdu = {
             </Text>
             <br />
             <Text size="lg" color="secondary" className="indent-10">
-              dr.Soedjono gugur di tembak oleh pasukan Anjing NICA, yaitu
+              dr.Soedjono gugur ditembak oleh pasukan Anjing NICA, yaitu
               pasukan tentara Belanda di Dusun Gerdu, Desa Pogalan, Kecamatan
               Pakis, Kabupaten Magelang. Pada saat kejadian, pos yang berada di
               kaki Gunung Merbabu tersebut diobrak-abrik pasukan Anjing NICA.

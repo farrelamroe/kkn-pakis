@@ -12,10 +12,10 @@ type DataArticlePucung = {
 };
 
 export const dataArticlePucung: DataArticlePucung = {
-  "keindahan-pucung": {
+  "pesona-pucung": {
     image: "/pucung/week-1-pucung-1.jpeg",
     location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Keindahan Pucung",
+    title: "Pesona Pucung",
     text: (
       <>
         <Text size="lg" className="indent-10">

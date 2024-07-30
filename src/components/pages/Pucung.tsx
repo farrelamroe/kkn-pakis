@@ -18,12 +18,12 @@ export function Pucung() {
         image="/pucung/pucung-hero.png"
         title={
           <>
-            Pogalan 1
+            Sub Unit Pogalan 1
             <br />
-            Pucung
+            Dusun Pucung
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description=""
       />
       <Container className="mt-[101px] font-jakarta">
         <H1 className="font-bold">Let’s See Our Project!</H1>

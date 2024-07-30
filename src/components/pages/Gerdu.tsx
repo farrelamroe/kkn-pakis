@@ -20,12 +20,12 @@ export function Gerdu() {
         image="/gerdu/gerdu-hero-edited.png"
         title={
           <>
-            Pogalan 2
+            Sub Unit Pogalan 2
             <br />
-            Gerdu
+            Dusun Gerdu
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description=""
       />
       <Container className="mt-[101px] font-jakarta">
         <H1 className="font-bold">Let’s See Our Project!</H1>
