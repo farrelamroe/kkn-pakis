@@ -15,17 +15,3 @@ export default function SemampiranPage() {
     </>
   );
 }
-
-export async function getServerSideProps() {
-  const isPageReady = false; // Replace with your condition
-
-  if (!isPageReady) {
-    return {
-      notFound: true, // This will redirect to the 404 page
-    };
-  }
-
-  return {
-    props: {}, // Pass props to the page component if needed
-  };
-}
