@@ -1,11 +1,9 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 export function Button(props: any) {
   const router = useRouter();
-  const [back, setBack] = useState(true);
-  const { href, text, size, color, className, buttonCount } = props;
-  let buttonSize, buttonColor;
+  const { href, text, size, color, className, buttonCount, back } = props;
+  let buttonSize, buttonColor
   if (size === "xs") {
     buttonSize =
       "px-[16px] py-[7px] outline-2 -outline-offset-1 leading-[10px]";
@@ -34,7 +32,7 @@ export function Button(props: any) {
       <button
         key={i}
         className={`relative h-fit w-fit rounded-[10px] font-jakarta text-white outline duration-300 hover:bg-white ${buttonSize} ${buttonColor} ${className}`}
-        onClick={!back ? () => router.push(href[i]) : () => router.back()}
+        onClick={back == false ? () => router.push(href[i]) : () => router.back()}
       >
         {text[i]}
       </button>,
