@@ -19,6 +19,7 @@ export default function NotFounf() {
             color="secondary"
             buttonCount={1}
             back
+            className="mt-[24px] block mx-auto"
           />
         </div>
       </div>
