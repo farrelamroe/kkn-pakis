@@ -4,5 +4,5 @@ export * from "./Card";
 export * from "./SubunitCard";
 export * from "./SubunitHero";
 export * from "./MainSubunitHero";
+export * from "./MainHero";
 export * from "./Navbar";
-export * from "./Article"

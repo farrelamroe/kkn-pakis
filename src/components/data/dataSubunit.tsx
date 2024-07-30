@@ -1,11 +1,11 @@
 export const dataSubunit = [
   {
-    image: "/hero.png",
+    image: "/gerdu/gerdu-card.png",
     title: "Gerdu",
     href: "gerdu",
   },
   {
-    image: "/hero.png",
+    image: "/pucung/pucung-card.png",
     title: "Pucung",
     href: "pucung",
   },
@@ -15,7 +15,7 @@ export const dataSubunit = [
     href: "semampiran",
   },
   {
-    image: "/hero.png",
+    image: "/semimpen/semimpen-hero.JPG",
     title: "Semimpen",
     href: "semimpen",
   },

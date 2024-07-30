@@ -1,11 +1,9 @@
-import { Article, ContainerArticle, Navbar } from "@/components";
+import { ArticlePucung, ContainerArticle, Navbar } from "@/components";
+import Head from "next/head";
 import Image from "next/image";
 
 export async function getStaticPaths() {
-  const routes = [
-    "pertemuan-dengan-kepala-dusun",
-    "diskusi-dengan-kepala-dusun",
-  ];
+  const routes = ["keindahan-pucung"];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
@@ -22,9 +20,13 @@ export async function getStaticProps({ params }: any) {
 export default function PucungArticle({ href }: any) {
   return (
     <>
+      <Head>
+        <title>Pogalan 1 - Pucung</title>
+        <link rel="icon" href="/logo-pakis.png" />
+      </Head>
       <Navbar />
       <ContainerArticle>
-        <Article href={href} />
+        <ArticlePucung href={href} />
       </ContainerArticle>
     </>
   );

@@ -2,7 +2,7 @@ export function Container(props: any) {
   const { children, className } = props;
   return (
     <main
-      className={`relative overflow-hidden rounded-[20px] p-[104px] h-screen ${className}`}
+      className={`relative h-full overflow-hidden rounded-[20px] px-[50px] lg:px-[104px] ${className}`}
     >
       {children}
     </main>

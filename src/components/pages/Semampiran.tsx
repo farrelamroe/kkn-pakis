@@ -1,8 +1,19 @@
-import { Card, Container, H1, H3, SubunitHero, dataSemampiran } from "@/components";
+import {
+  ArrowBack,
+  Card,
+  Container,
+  H1,
+  H3,
+  SubunitHero,
+  dataSemampiran,
+} from "@/components";
 
 export function Semampiran() {
   return (
     <>
+      <div className="ml-[50px]">
+        <ArrowBack />
+      </div>
       <SubunitHero
         image="/hero.png"
         title={
@@ -21,7 +32,7 @@ export function Semampiran() {
           testing, and blablabla
         </H3>
 
-        <div className="mt-[48px] grid grid-cols-4 gap-x-[28px] gap-y-[40px]">
+        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
           {dataSemampiran.map(({ image, title, href }: any) => {
             return (
               <>

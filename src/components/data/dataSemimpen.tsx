@@ -1,12 +1,7 @@
 export const dataSemimpen = [
   {
-    image: "/hero.png",
-    title: "Pertemuan dengan Kepala Dusun",
-    href: "pertemuan-dengan-kepala-dusun",
-  },
-  {
-    image: "/hero.png",
-    title: "Diskusi dengan Kepala Dusun",
-    href: "diskusi-dengan-kepala-dusun",
+    image: "/semimpen/week-1-semimpen-1.png",
+    title: "Profil Dusun Semimpen",
+    href: "profil-dusun-semimpen",
   },
 ];

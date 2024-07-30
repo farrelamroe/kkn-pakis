@@ -1,4 +1,5 @@
-import { Article, ContainerArticle, Navbar } from "@/components";
+import { ArticleSemampiran, ContainerArticle, Navbar } from "@/components";
+import Head from "next/head";
 import Image from "next/image";
 
 export async function getStaticPaths() {
@@ -19,12 +20,16 @@ export async function getStaticProps({ params }: any) {
   return { props: { href: params.href } };
 }
 
-export default function SemampiranArticle({ href }: any) {
+export default function SemampiranArticleSemampiran({ href }: any) {
   return (
     <>
+      <Head>
+        <title>Ketundan 1 - Semampiran</title>
+        <link rel="icon" href="/logo-pakis.png" />
+      </Head>
       <Navbar />
       <ContainerArticle>
-        <Article href={href} />
+        <ArticleSemampiran href={href} />
       </ContainerArticle>
     </>
   );

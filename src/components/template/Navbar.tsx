@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { H1, H2, H3 } from "@/components";
+import { H1 } from "@/components";
 
 export function Navbar() {
   const [active, setActive] = useState(false);
@@ -12,15 +12,15 @@ export function Navbar() {
 
   return (
     <>
-      <div className="fixed top-0 z-[110] h-[82px] w-[100%] bg-primary text-center">
-        <div className="relative flex h-full flex-row items-center justify-between px-5 shadow-md">
+      <div className="fixed top-0 z-[110] h-[82px] w-[100%] rounded-b-[8px] bg-primary text-center font-jakarta">
+        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-md">
           <Link href="/">
             <Image
-              src="/logo-pakis.png"
-              width={50}
+              src="/logo-pakis-text.png"
+              width={150}
               height={100}
               alt=""
-              className="my-auto block"
+              className="relative items-center"
             />
           </Link>
           <div className="relative z-40 hidden flex-row items-center justify-center gap-x-5 text-xl text-secondary lg:flex lg:pr-20">
@@ -87,7 +87,7 @@ export function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-y-hidden bg-primary pt-24 text-xl text-white duration-1000 lg:hidden ${
+        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-y-hidden bg-primary pt-24 font-jakarta text-xl text-white duration-1000 lg:hidden ${
           active ? "max-w-[75vw]" : "max-w-0"
         }`}
       >
