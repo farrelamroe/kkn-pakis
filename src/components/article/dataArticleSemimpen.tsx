@@ -13,24 +13,21 @@ type DataArticleSemimpen = {
 };
 
 export const dataArticleSemimpen: DataArticleSemimpen = {
-  "profil-dusun-semimpen": {
+  "pesona-semimpen": {
     image: "/semimpen/week-1-semimpen-1.png",
     location: "Dusun Semimpen, Kelurahan Ketundan",
-    title: "Profil Dusun Semimpen",
+    title: "Pesona Semimpen",
     text: (
       <>
         <Text size="lg" className="indent-10">
-          Dusun Semimpen adalah sebuah dusun yang terletak di Desa Ketundan,
-          Kecamatan Pakis, Kabupaten Magelang, Jawa Tengah yang berbatasan
+          Dusun Semimpen merupakan salah satu dusun yang terletak di Kelurahan Ketundan,
+          Kecamatan Pakis, Kabupaten Magelang, Jawa Tengah. Dusun yang berbatasan
           langsung dengan kawasan Taman Nasional Gunung Merbabu. Keindahan alam
           yang menawan dan kebudayaan yang masih lestari menjadi daya tarik bagi
-          penduduk lokal maupun wisatawan untuk berkunjung ke dusun ini. Artikel
-          ini akan mengupas profil Dusun Semimpen, meliputi sejarah, kondisi
-          geografis, kehidupan sosial dan ekonomi, serta potensi wisata yang
-          dimilikinya.
+          penduduk lokal maupun wisatawan untuk berkunjung ke Semimpen.
         </Text>
         <br />
-        <H2 className="font-bold">Sekilas tentang Sejarah Dusun Semimpen</H2>
+        <H2 className="font-bold">Sejarah Dusun Semimpen</H2>
         <br />
         <Text size="lg" className="indent-10">
           Dusun Semimpen memiliki sejarah panjang yang tidak terlepas dari
@@ -43,7 +40,7 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Sejarah Dusun Semimpen tidak dapat dilepaskan dari sejarah
+          Sejarah Dusun Semimpen juga tidak dapat lepas dari sejarah
           kerajaan-kerajaan Jawa yang pernah berdiri di wilayah ini, seperti
           Mataram Kuno dan Mataram Islam. Warisan budaya dan tradisi dari masa
           lalu masih terlihat dalam kehidupan sehari-hari masyarakat Dusun
@@ -59,8 +56,8 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Tradisi dan adat Jawa di dusun ini masih kental. Salah satu contoh
-          tradisi yang masih dilestarikan ialah bersih dusun, yang di dalamnya
+          Tradisi dan adat Jawa di dusun ini masih sangat kental. Salah satu contoh
+          tradisi yang masih dilestarikan ialah bersih dusun, yang mana di dalamnya
           terdapat kesenian bernama Ronggeng. Kesenian ini sangat melegenda.
           Dari ratusan tahun lalu hingga sekarang kesenian ini masih
           dilestarikan. Ronggeng harus dilaksanakan setiap bulan Rajab ketika
@@ -72,10 +69,9 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         <Text size="lg" className="indent-10">
           Dusun Semimpen berada di ketinggian kurang lebih 1200 meter di atas
           permukaan laut (mdpl) dengan suhu rata-rata 18-22 derajat celcius.
-          Dikelilingi oleh pegunungan, kita dimanjakan dengan indahnya
-          pemandangan dan sejuknya udara. Selain itu, letaknya yang berada di
-          kaki Gunung Merbabu menjadikan dusun ini sebagai salah satu tempat
-          dengan pemandangan yang memukau.
+          Dikelilingi oleh pegunungan, siapa pun yang berada di dusun ini akan dimanjakan dengan indahnya
+          pemandangan dan sejuknya udara Semimpen. Selain itu, letak Dusun Semimpen yang berada di bawah
+          kaki Gunung Merbabu menjadikan dusun ini sebagai salah satu tempat yang memiliki pemandangan memukau.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -117,15 +113,11 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
             className="aspect-video h-full max-h-[325px] w-full max-w-[562px] rounded-[24px] object-cover"
           />
           <Text size="lg" className="indent-10">
-            Seperti yang tadi disebutkan, kearifan lokal dan budaya tradisional
-            masih dijaga dengan baik di Dusun Semimpen. Hal ini menjadi daya
-            tarik tersendiri bagi wisatawan. Salah satu kesenian menarik yang
-            ada di Dusun Semimpen adalah Brondut atau Kubro Dangdut. Mengikuti
-            perkembangan zaman modern, tarian kesenian Brodut menjadi kesenian
-            yang digemari oleh masyarakat. Bahkan kesenian ini ditonton oleh
-            puluhan ribu orang. Brondut awalnya hanya Kubro yang menggunakan
-            iringan nyanyian lagu-lagu Islamiyah dan perjuangan Indonesia. Akan
-            tetapi, seiring berjalannya waktu, Kubro berkembang menjadi Kubro
+            Kearifan lokal dan budaya tradisional masih dijaga dengan baik di Dusun Semimpen. 
+            Hal ini menjadi daya tarik tersendiri bagi wisatawan. Salah satu kesenian menarik yang ada di Dusun Semimpen adalah Brondut atau Kubro Dangdut. 
+            Mengikuti perkembangan zaman modern, tarian kesenian Brodut menjadi kesenian yang digemari oleh masyarakat. 
+            Bahkan kesenian ini ditonton oleh puluhan ribu orang. Brondut awalnya hanya Kubro yang menggunakan
+            iringan nyanyian lagu-lagu Islamiyah dan perjuangan Indonesia. Akan tetapi, seiring berjalannya waktu, Kubro berkembang menjadi Kubro
             Dangdut (Brondut) dengan iringan musik dangdut.
           </Text>
         </div>
@@ -133,7 +125,7 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         <H2 className="font-bold">Harapan dan Masa Depan</H2>
         <br />
         <Text size="lg" className="indent-10">
-          Dengan berbagai potensi yang dimiliki, Dusun Semimpen berpotensi untuk
+          Dengan berbagai kekayaan sumber daya yang dimiliki, Dusun Semimpen berpotensi untuk
           terus berkembang dan meningkatkan kesejahteraan masyarakatnya.
           Pemerintah desa dan masyarakat setempat terus berupaya untuk
           mengembangkan sektor-sektor ekonomi potensial, termasuk pertanian,

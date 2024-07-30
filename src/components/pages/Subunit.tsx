@@ -12,8 +12,8 @@ export function Subunit() {
     <>
       <MainSubunitHero
         image="/hero.png"
-        title="Subunit"
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald"
+        title="Sub Unit"
+        description=""
       />
       <Container className="pt-[101px] font-jakarta">
         <H1 className="text-center font-bold">Let’s See Our Sub-Unit!</H1>
