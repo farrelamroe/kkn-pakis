@@ -1,4 +1,3 @@
-export * from "./ArrowBack";
 export * from "./Container";
 export * from "./ContainerArticle";
 export * from "./Card";

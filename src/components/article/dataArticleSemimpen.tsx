@@ -14,8 +14,8 @@ type DataArticleSemimpen = {
 
 export const dataArticleSemimpen: DataArticleSemimpen = {
   "profil-dusun-semimpen": {
-    image: "/semimpen/week-1-semimpen-1.jpg",
-    location: "Dusun Semimpen, Desa Ketundan",
+    image: "/semimpen/week-1-semimpen-1.png",
+    location: "Dusun Semimpen, Kelurahan Ketundan",
     title: "Profil Dusun Semimpen",
     text: (
       <>
@@ -158,23 +158,6 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
           masyarakat Dusun Semimpen makin sejahtera tanpa meninggal nilai-nilai
           luhurnya.
         </Text>
-      </>
-    ),
-  },
-  "diskusi-dengan-kepala-dusun": {
-    image: "/hero.png",
-    location: "Rumah Pak Bayan",
-    title: "Diskusi dengan Kepala Dusun",
-    text: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-        <br />
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </>
     ),
   },

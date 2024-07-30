@@ -38,7 +38,11 @@ export function SubunitHero(props: any) {
     <>
       <div
         className="mx-[50px] mb-[41px] mt-[28px] h-[75vh] w-[calc(100%-100px)] rounded-[24px]"
-        style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
+        style={{
+          backgroundImage: `url(${image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <div className="relative top-[35%] px-[20px] xs:top-[40%] lg:px-[54px]">
           <HeadingTag className="font-alatsi font-bold text-white">

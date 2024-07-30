@@ -17,7 +17,7 @@ export function Gerdu() {
         <ArrowBack />
       </div>
       <SubunitHero
-        image="/hero.png"
+        image="/gerdu/gerdu-hero-edited.png"
         title={
           <>
             Pogalan 2

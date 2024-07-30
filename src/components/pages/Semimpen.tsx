@@ -15,10 +15,10 @@ export function Semimpen() {
         <ArrowBack />
       </div>
       <SubunitHero
-        image="/hero.png"
+        image="/semimpen/semimpen-hero-edited.png"
         title={
           <>
-            Pogalan 1
+            Ketundan 2
             <br />
             Semimpen
           </>

@@ -16,8 +16,8 @@ export function Navbar() {
         <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-md">
           <Link href="/">
             <Image
-              src="/logo-pakis.png"
-              width={50}
+              src="/logo-pakis-text.png"
+              width={150}
               height={100}
               alt=""
               className="relative items-center"
