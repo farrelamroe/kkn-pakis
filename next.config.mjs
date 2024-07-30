@@ -13,6 +13,11 @@ const nextConfig = {
         destination: "/404",
         permanent: false
       },
+      {
+        source: "/klaster",
+        destination: "/404",
+        permanent: false
+      },
     ]
   }
 };

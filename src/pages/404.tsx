@@ -18,7 +18,7 @@ export default function NotFounf() {
             text={["Kembali"]}
             color="secondary"
             buttonCount={1}
-            back
+            back={true}
             className="mt-[24px] block mx-auto"
           />
         </div>

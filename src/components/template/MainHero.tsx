@@ -21,6 +21,7 @@ export function MainHero(props: any) {
               buttonCount={2}
               href={["/sub-unit", "/klaster"]}
               className="mr-5"
+              back={false}
             />
           </div>
         </Container>

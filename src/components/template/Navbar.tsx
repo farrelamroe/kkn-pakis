@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { H1 } from "@/components";
+import { H2, dataNavbar } from "@/components";
 
 export function Navbar() {
   const [active, setActive] = useState(false);
@@ -24,21 +24,17 @@ export function Navbar() {
             />
           </Link>
           <div className="relative z-40 hidden flex-row items-center justify-center gap-x-5 text-xl text-secondary lg:flex lg:pr-20">
-            <Link href="/">
-              <p className="duration-300 hover:cursor-pointer hover:font-bold">
-                Home
-              </p>
-            </Link>
-            <Link href="/klaster">
-              <p className="duration-300 hover:cursor-pointer hover:font-bold">
-                Klaster
-              </p>
-            </Link>
-            <Link href="/sub-unit">
-              <p className="duration-300 hover:cursor-pointer hover:font-bold">
-                Sub Unit
-              </p>
-            </Link>
+            {dataNavbar.map(({ title, href }) => {
+              return (
+                <>
+                  <a href={href} key={title}>
+                    <p className="duration-300 hover:cursor-pointer hover:font-bold">
+                      {title}
+                    </p>
+                  </a>
+                </>
+              );
+            })}
           </div>
 
           <svg
@@ -91,21 +87,17 @@ export function Navbar() {
           active ? "max-w-[75vw]" : "max-w-0"
         }`}
       >
-        <Link href="/">
-          <H1 className="pb-5 pl-20 font-jakarta text-secondary hover:cursor-pointer xs:pl-28 sm:pl-36 md:pl-44">
-            Home
-          </H1>
-        </Link>
-        <Link href="/klaster">
-          <H1 className="pb-5 pl-20 font-jakarta text-secondary hover:cursor-pointer xs:pl-28 sm:pl-36 md:pl-44">
-            Klaster
-          </H1>
-        </Link>
-        <Link href="/sub-unit">
-          <H1 className="pb-5 pl-20 font-jakarta text-secondary hover:cursor-pointer xs:pl-28 sm:pl-36 md:pl-44">
-            Sub Unit
-          </H1>
-        </Link>
+        {dataNavbar.map(({ title, href }) => {
+          return (
+            <>
+              <a href={href} key={title}>
+                <H2 className="duration-300 hover:cursor-pointer hover:font-bold">
+                  {title}
+                </H2>
+              </a>
+            </>
+          );
+        })}
       </div>
     </>
   );
