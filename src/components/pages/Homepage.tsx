@@ -1,6 +1,14 @@
-import { Container, H3, H2, MainHero } from "@/components";
-import { Home_Name } from "../text/Home_Name";
-import { Home_Title } from "../text/Home_Title";
+import {
+  Container,
+  H3,
+  H2,
+  MainHero,
+  Home_Title,
+  Home_Name,
+  H1,
+  P,
+  H4,
+} from "@/components";
 import Image from "next/image";
 
 export function Homepage() {
@@ -8,34 +16,45 @@ export function Homepage() {
     <>
       <MainHero
         image="/foto-pakis-expand.png"
-        title={
-          <>
-            TIM KKN MELUKIS PAKIS 2024
-          </>
-        }
+        title="TIM KKN MELUKIS PAKIS 2024"
         description="Dolor magna in occaecat sint elit Lorem eiusmod dolor amet occaecat ipsum. Proident aute ipsum laborum sunt consequat ea ut duis quis et esse voluptate. Cillum aliquip excepteur ipsum Lorem ea nostrud aliquip laborum in labore exercitation"
       />
       <Container>
-        <div className="my-7">
-          <Container className="bg-[#D04736] rounded-[54px] h-[468px]">
-            <div className="flex flex-col lg:flex-row justify-between items-center h-full gap-x-[70px]">
-              {/* <H1>test</H1> */}
-              <div className="w-[390px] h-[300px] bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC] border-[10px] border-white rounded-t-[195px] rounded-b-[25px]">
-                <Image
-                  src="/pak-dimas.png"
-                  width={1000}
-                  height={1000}
-                  alt="Pak Dimas"
-                  className="relative -top-[73px]"
-                />
-              </div>
-              <div className="flex flex-col">
-                <Home_Name className="font-bold font-jakarta text-white">Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.</Home_Name>
-                <Home_Title className="font-jakarta text-white">Dosen Pembimbing Lapangan Tim Melukis Pakis 2024</Home_Title>
-              </div>
+        <div className="relative my-[50px] h-full rounded-[54px] bg-[#D04736] px-[100px]">
+          <div className="relative flex h-full flex-col items-center justify-between gap-x-[70px] pb-[65px] pt-[103px] lg:flex-row">
+            <div className="relative max-h-[350px] min-h-[300px] w-[390px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]">
+              <Image
+                src="/pak-dimas.png"
+                width={1000}
+                height={1000}
+                alt="Pak Dimas"
+                className="relative"
+              />
             </div>
-          </Container>
+            <div className="flex flex-col gap-y-[20px]">
+              <P className="font-jakarta text-[48px] leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
+                Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
+              </P>
+              <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
+                Dosen Pembimbing Lapangan Tim Melukis Pakis 2024
+              </P>
+            </div>
+          </div>
         </div>
+      </Container>
+      <Container className="my-[100px] text-center font-jakarta">
+        <H1 className="font-bold">Video Profil Desa Pogalan</H1>
+        <H4>
+          Salah satu program kerja di Pogalan 1 (Desa Gerdu) membuat video
+          profil tentang Desa Pogalan. Simak Yuk!
+        </H4>
+        <iframe
+          src="https://www.youtube.com/embed/09788H9vnDs?si=MfiMKWcKjcUPeB9q"
+          title="YouTube video player"
+          sandbox="allow-same-origin allow-scripts allow-popups"
+          className="aspect-video h-full max-h-[594px] w-full mt-[40px]"
+          allowFullScreen
+        />
       </Container>
     </>
   );

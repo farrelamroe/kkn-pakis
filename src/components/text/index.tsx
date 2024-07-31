@@ -3,4 +3,8 @@ export * from "./H2";
 export * from "./H3";
 export * from "./H4";
 export * from "./H5";
+export * from "./P";
 export * from "./Text";
+export * from "./Home_H1";
+export * from "./Home_Name";
+export * from "./Home_Title";
