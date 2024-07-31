@@ -1,4 +1,4 @@
-import { ArticleGerdu, ContainerArticle, Navbar } from "@/components";
+import { ArticleGerdu, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -28,6 +28,7 @@ export default function GerduArticle({ href }: any) {
       <ContainerArticle>
         <ArticleGerdu href={href} />
       </ContainerArticle>
+      <Footer />
     </>
   );
 }

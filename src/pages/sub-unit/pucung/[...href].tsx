@@ -1,4 +1,4 @@
-import { ArticlePucung, ContainerArticle, Navbar } from "@/components";
+import { ArticlePucung, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -28,6 +28,7 @@ export default function PucungArticle({ href }: any) {
       <ContainerArticle>
         <ArticlePucung href={href} />
       </ContainerArticle>
+      <Footer />
     </>
   );
 }

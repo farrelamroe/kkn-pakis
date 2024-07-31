@@ -1,6 +1,7 @@
 export * from "./Container";
 export * from "./ContainerArticle";
 export * from "./Card";
+export * from "./Footer";
 export * from "./SubunitCard";
 export * from "./SubunitHero";
 export * from "./MainSubunitHero";

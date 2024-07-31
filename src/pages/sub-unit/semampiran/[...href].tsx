@@ -1,4 +1,4 @@
-import { ArticleSemampiran, ContainerArticle, Navbar } from "@/components";
+import { ArticleSemampiran, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -31,6 +31,7 @@ export default function SemampiranArticleSemampiran({ href }: any) {
       <ContainerArticle>
         <ArticleSemampiran href={href} />
       </ContainerArticle>
+      <Footer />
     </>
   );
 }

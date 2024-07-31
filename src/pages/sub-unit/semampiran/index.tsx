@@ -1,4 +1,4 @@
-import { Semampiran, Navbar } from "@/components";
+import { Semampiran, Navbar, Footer } from "@/components";
 import Head from "next/head";
 
 export default function SemampiranPage() {
@@ -11,6 +11,7 @@ export default function SemampiranPage() {
       <main>
         <Navbar />
         <Semampiran />
+        <Footer />
       </main>
     </>
   );
