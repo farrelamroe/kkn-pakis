@@ -1,14 +1,4 @@
-import {
-  Container,
-  H3,
-  H2,
-  MainHero,
-  Home_Title,
-  Home_Name,
-  H1,
-  P,
-  H4,
-} from "@/components";
+import { Container, MainHero, H1, H4, P } from "@/components";
 import Image from "next/image";
 
 export function Homepage() {
@@ -52,7 +42,7 @@ export function Homepage() {
           src="https://www.youtube.com/embed/09788H9vnDs?si=MfiMKWcKjcUPeB9q"
           title="YouTube video player"
           sandbox="allow-same-origin allow-scripts allow-popups"
-          className="aspect-video h-full max-h-[594px] w-full mt-[40px]"
+          className="mt-[40px] aspect-video h-full max-h-[594px] w-full"
           allowFullScreen
         />
       </Container>

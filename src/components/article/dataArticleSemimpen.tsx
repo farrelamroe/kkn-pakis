@@ -1,4 +1,4 @@
-import { H2, H3, H5, Text } from "@/components";
+import { H2, Text } from "@/components";
 import Image from "next/image";
 
 type Article = {
@@ -20,11 +20,12 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
     text: (
       <>
         <Text size="lg" className="indent-10">
-          Dusun Semimpen merupakan salah satu dusun yang terletak di Kelurahan Ketundan,
-          Kecamatan Pakis, Kabupaten Magelang, Jawa Tengah. Dusun yang berbatasan
-          langsung dengan kawasan Taman Nasional Gunung Merbabu. Keindahan alam
-          yang menawan dan kebudayaan yang masih lestari menjadi daya tarik bagi
-          penduduk lokal maupun wisatawan untuk berkunjung ke Semimpen.
+          Dusun Semimpen merupakan salah satu dusun yang terletak di Kelurahan
+          Ketundan, Kecamatan Pakis, Kabupaten Magelang, Jawa Tengah. Dusun yang
+          berbatasan langsung dengan kawasan Taman Nasional Gunung Merbabu.
+          Keindahan alam yang menawan dan kebudayaan yang masih lestari menjadi
+          daya tarik bagi penduduk lokal maupun wisatawan untuk berkunjung ke
+          Semimpen.
         </Text>
         <br />
         <H2 className="font-bold">Sejarah Dusun Semimpen</H2>
@@ -56,10 +57,10 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Tradisi dan adat Jawa di dusun ini masih sangat kental. Salah satu contoh
-          tradisi yang masih dilestarikan ialah bersih dusun, yang mana di dalamnya
-          terdapat kesenian bernama Ronggeng. Kesenian ini sangat melegenda.
-          Dari ratusan tahun lalu hingga sekarang kesenian ini masih
+          Tradisi dan adat Jawa di dusun ini masih sangat kental. Salah satu
+          contoh tradisi yang masih dilestarikan ialah bersih dusun, yang mana
+          di dalamnya terdapat kesenian bernama Ronggeng. Kesenian ini sangat
+          melegenda. Dari ratusan tahun lalu hingga sekarang kesenian ini masih
           dilestarikan. Ronggeng harus dilaksanakan setiap bulan Rajab ketika
           saat itu ada adat tata cara bersih dusun dan lain-lain.
         </Text>
@@ -69,9 +70,11 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         <Text size="lg" className="indent-10">
           Dusun Semimpen berada di ketinggian kurang lebih 1200 meter di atas
           permukaan laut (mdpl) dengan suhu rata-rata 18-22 derajat celcius.
-          Dikelilingi oleh pegunungan, siapa pun yang berada di dusun ini akan dimanjakan dengan indahnya
-          pemandangan dan sejuknya udara Semimpen. Selain itu, letak Dusun Semimpen yang berada di bawah
-          kaki Gunung Merbabu menjadikan dusun ini sebagai salah satu tempat yang memiliki pemandangan memukau.
+          Dikelilingi oleh pegunungan, siapa pun yang berada di dusun ini akan
+          dimanjakan dengan indahnya pemandangan dan sejuknya udara Semimpen.
+          Selain itu, letak Dusun Semimpen yang berada di bawah kaki Gunung
+          Merbabu menjadikan dusun ini sebagai salah satu tempat yang memiliki
+          pemandangan memukau.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -113,25 +116,29 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
             className="aspect-video h-full max-h-[325px] w-full max-w-[562px] rounded-[24px] object-cover"
           />
           <Text size="lg" className="indent-10">
-            Kearifan lokal dan budaya tradisional masih dijaga dengan baik di Dusun Semimpen. 
-            Hal ini menjadi daya tarik tersendiri bagi wisatawan. Salah satu kesenian menarik yang ada di Dusun Semimpen adalah Brondut atau Kubro Dangdut. 
-            Mengikuti perkembangan zaman modern, tarian kesenian Brodut menjadi kesenian yang digemari oleh masyarakat. 
-            Bahkan kesenian ini ditonton oleh puluhan ribu orang. Brondut awalnya hanya Kubro yang menggunakan
-            iringan nyanyian lagu-lagu Islamiyah dan perjuangan Indonesia. Akan tetapi, seiring berjalannya waktu, Kubro berkembang menjadi Kubro
-            Dangdut (Brondut) dengan iringan musik dangdut.
+            Kearifan lokal dan budaya tradisional masih dijaga dengan baik di
+            Dusun Semimpen. Hal ini menjadi daya tarik tersendiri bagi
+            wisatawan. Salah satu kesenian menarik yang ada di Dusun Semimpen
+            adalah Brondut atau Kubro Dangdut. Mengikuti perkembangan zaman
+            modern, tarian kesenian Brodut menjadi kesenian yang digemari oleh
+            masyarakat. Bahkan kesenian ini ditonton oleh puluhan ribu orang.
+            Brondut awalnya hanya Kubro yang menggunakan iringan nyanyian
+            lagu-lagu Islamiyah dan perjuangan Indonesia. Akan tetapi, seiring
+            berjalannya waktu, Kubro berkembang menjadi Kubro Dangdut (Brondut)
+            dengan iringan musik dangdut.
           </Text>
         </div>
         <br />
         <H2 className="font-bold">Harapan dan Masa Depan</H2>
         <br />
         <Text size="lg" className="indent-10">
-          Dengan berbagai kekayaan sumber daya yang dimiliki, Dusun Semimpen berpotensi untuk
-          terus berkembang dan meningkatkan kesejahteraan masyarakatnya.
-          Pemerintah desa dan masyarakat setempat terus berupaya untuk
-          mengembangkan sektor-sektor ekonomi potensial, termasuk pertanian,
-          pariwisata dan industri kreatif. Dukungan dari berbagai pihak, baik
-          pemerintah daerah maupun investor, diharapkan dapat mempercepat
-          perkembangan dusun ini.
+          Dengan berbagai kekayaan sumber daya yang dimiliki, Dusun Semimpen
+          berpotensi untuk terus berkembang dan meningkatkan kesejahteraan
+          masyarakatnya. Pemerintah desa dan masyarakat setempat terus berupaya
+          untuk mengembangkan sektor-sektor ekonomi potensial, termasuk
+          pertanian, pariwisata dan industri kreatif. Dukungan dari berbagai
+          pihak, baik pemerintah daerah maupun investor, diharapkan dapat
+          mempercepat perkembangan dusun ini.
         </Text>
         <br />
         <Text size="lg" className="indent-10">

@@ -44,15 +44,15 @@ export const dataArticleGerdu: DataArticleGerdu = {
             className="aspect-auto h-full max-h-[325px] w-full max-w-[562px] rounded-[24px] object-cover"
           />
           <div>
-          <Text size="lg" color="secondary" className="indent-10">
-          Dibalik keindahan alam yang terdapat pada Dusun Gerdu ini, terdapat
-          sejarah yang jarang orang ketahui. Yaitu tentang pahlawan bernama
-          Letkol dr. Soedjono yang merupakan seorang dokter Brigade Kuda Putih.
-          Letkol dr. Soedjono lahir di Banyumas, Februari 1915 yang mana
-          dr.Soedjono merupakan dokter lulusan sekolah kedokteran yang didirikan
-          oleh Jepang.
-        </Text>
-        <br />
+            <Text size="lg" color="secondary" className="indent-10">
+              Dibalik keindahan alam yang terdapat pada Dusun Gerdu ini,
+              terdapat sejarah yang jarang orang ketahui. Yaitu tentang pahlawan
+              bernama Letkol dr. Soedjono yang merupakan seorang dokter Brigade
+              Kuda Putih. Letkol dr. Soedjono lahir di Banyumas, Februari 1915
+              yang mana dr.Soedjono merupakan dokter lulusan sekolah kedokteran
+              yang didirikan oleh Jepang.
+            </Text>
+            <br />
             <Text size="lg" color="secondary" className="indent-10">
               Perjalanan perjuangan dr.Soedjono tidaklah mudah. Sebelum akhirnya
               berada di Magelang, dr.Soedjono pernah mengabdi di Divisi
@@ -62,10 +62,10 @@ export const dataArticleGerdu: DataArticleGerdu = {
             </Text>
             <br />
             <Text size="lg" color="secondary" className="indent-10">
-              dr.Soedjono gugur ditembak oleh pasukan Anjing NICA, yaitu
-              pasukan tentara Belanda di Dusun Gerdu, Desa Pogalan, Kecamatan
-              Pakis, Kabupaten Magelang. Pada saat kejadian, pos yang berada di
-              kaki Gunung Merbabu tersebut diobrak-abrik pasukan Anjing NICA.
+              dr.Soedjono gugur ditembak oleh pasukan Anjing NICA, yaitu pasukan
+              tentara Belanda di Dusun Gerdu, Desa Pogalan, Kecamatan Pakis,
+              Kabupaten Magelang. Pada saat kejadian, pos yang berada di kaki
+              Gunung Merbabu tersebut diobrak-abrik pasukan Anjing NICA.
               Kemudian dr.Soedjono berusaha meloloskan diri dengan melompat
               pagar. Namuan naas, kaki dr.Soedjono tersangkut tanaman waluh dan
               terjatuh. Tanpa pikir panjang, pasukan Anjing NICA langsung

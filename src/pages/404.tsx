@@ -9,7 +9,7 @@ export default function NotFounf() {
         <title>Halaman Tidak Ditemukan!</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
-      <div className="flex h-screen flex-col lg:flex-row text-center items-center justify-center gap-[50px]">
+      <div className="flex h-screen flex-col items-center justify-center gap-[50px] text-center lg:flex-row">
         <Image src="/logo-pakis.png" alt="image" width={500} height={500} />
         <div>
           <H1 className="font-jakarta">Halaman tidak ditemukan!</H1>
@@ -19,7 +19,7 @@ export default function NotFounf() {
             color="secondary"
             buttonCount={1}
             back={true}
-            className="mt-[24px] block mx-auto"
+            className="mx-auto mt-[24px] block"
           />
         </div>
       </div>

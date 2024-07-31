@@ -1,6 +1,5 @@
 import { ArticlePucung, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
-import Image from "next/image";
 
 export async function getStaticPaths() {
   const routes = ["pesona-pucung"];

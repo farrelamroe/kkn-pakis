@@ -1,4 +1,4 @@
-import { H3, Text } from "@/components";
+import { Text } from "@/components";
 
 type Article = {
   image: string;

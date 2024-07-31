@@ -10,11 +10,7 @@ import {
 export function Subunit() {
   return (
     <>
-      <MainSubunitHero
-        image="/hero.png"
-        title="Sub Unit"
-        description=""
-      />
+      <MainSubunitHero image="/hero.png" title="Sub Unit" description="" />
       <Container className="pt-[101px] font-jakarta">
         <H1 className="text-center font-bold">Let’s See Our Sub-Unit!</H1>
         <H3 className="pt-[24px] text-center">

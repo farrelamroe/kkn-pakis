@@ -6,20 +6,20 @@ const nextConfig = {
       {
         source: "/sub-unit/semampiran",
         destination: "/404",
-        permanent: false
+        permanent: false,
       },
       {
         source: "/sub-unit/semampiran/:path*",
         destination: "/404",
-        permanent: false
+        permanent: false,
       },
       {
         source: "/klaster",
         destination: "/404",
-        permanent: false
+        permanent: false,
       },
-    ]
-  }
+    ];
+  },
 };
 
 export default nextConfig;

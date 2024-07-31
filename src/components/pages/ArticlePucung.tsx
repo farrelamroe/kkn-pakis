@@ -1,4 +1,4 @@
-import { ArrowBack, H1, H3, H4, dataArticlePucung } from "@/components";
+import { ArrowBack, H1, dataArticlePucung } from "@/components";
 import Image from "next/image";
 
 export function ArticlePucung({ href }: any) {

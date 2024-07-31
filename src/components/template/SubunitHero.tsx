@@ -1,4 +1,4 @@
-import { H1, H2, H3, H4, H5 } from "@/components";
+import { H1, H2, H4, H5 } from "@/components";
 import { useState, useEffect } from "react";
 
 export function SubunitHero(props: any) {

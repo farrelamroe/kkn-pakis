@@ -1,4 +1,4 @@
-import { ArrowBack, H1, H3, H4, dataArticleGerdu } from "@/components";
+import { ArrowBack, H1, dataArticleGerdu } from "@/components";
 import Image from "next/image";
 
 export function ArticleGerdu({ href }: any) {

@@ -1,4 +1,4 @@
-import { ArrowBack, H1, H3, H4, dataArticleSemimpen } from "@/components";
+import { ArrowBack, H1, dataArticleSemimpen } from "@/components";
 import Image from "next/image";
 
 export function ArticleSemimpen({ href }: any) {
