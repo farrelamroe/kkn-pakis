@@ -14,7 +14,7 @@ type DataArticleSemimpen = {
 
 export const dataArticleSemimpen: DataArticleSemimpen = {
   "pesona-semimpen": {
-    image: "/semimpen/week-1-semimpen-1.png",
+    image: "/semimpen/week-1-hero.jpg",
     location: "Dusun Semimpen, Kelurahan Ketundan",
     title: "Pesona Semimpen",
     text: (
@@ -109,7 +109,7 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
           <Image
-            src="/semimpen/week-1-semimpen-2.jpg"
+            src="/semimpen/brondut.jpg"
             alt=""
             width={1000}
             height={1000}

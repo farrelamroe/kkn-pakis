@@ -2,15 +2,19 @@ import {
   Container,
   H1,
   H3,
-  MainSubunitHero,
-  SubunitCard,
+  MainSubunitKlasterHero,
+  SubunitKlasterCard,
   dataSubunit,
 } from "@/components";
 
 export function Subunit() {
   return (
     <>
-      <MainSubunitHero image="/hero.png" title="Sub Unit" description="" />
+      <MainSubunitKlasterHero
+        image="/hero.png"
+        title="Sub Unit"
+        description=""
+      />
       <Container className="pt-[101px] font-jakarta">
         <H1 className="text-center font-bold">Let’s See Our Sub-Unit!</H1>
         <H3 className="pt-[24px] text-center">
@@ -22,7 +26,7 @@ export function Subunit() {
             return (
               <>
                 <a href={`/sub-unit/${href}`} key={title}>
-                  <SubunitCard image={image} title={title} />
+                  <SubunitKlasterCard image={image} title={title} />
                 </a>
               </>
             );

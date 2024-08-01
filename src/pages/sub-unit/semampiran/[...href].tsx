@@ -24,7 +24,7 @@ export async function getStaticProps({ params }: any) {
   return { props: { href: params.href } };
 }
 
-export default function SemampiranArticleSemampiran({ href }: any) {
+export default function SemampiranArticle({ href }: any) {
   return (
     <>
       <Head>

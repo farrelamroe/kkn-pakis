@@ -14,7 +14,7 @@ type DataArticleGerdu = {
 
 export const dataArticleGerdu: DataArticleGerdu = {
   "pesona-gerdu": {
-    image: "/gerdu/week-1-gerdu-2.png",
+    image: "/gerdu/week-1-hero.jpg",
     location: "Dusun Gerdu, Kelurahan Pogalan",
     title: "Pesona Gerdu",
     text: (
@@ -37,7 +37,7 @@ export const dataArticleGerdu: DataArticleGerdu = {
         <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
           <Image
-            src="/gerdu/week-1-gerdu-1.png"
+            src="/gerdu/tugu.jpg"
             alt=""
             width={1000}
             height={1000}

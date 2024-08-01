@@ -4,7 +4,16 @@ export * from "./Pucung";
 export * from "./Semampiran";
 export * from "./Semimpen";
 export * from "./Subunit";
+export * from "./Saintek";
+export * from "./Soshum";
+export * from "./Medika";
+export * from "./Agro";
+export * from "./Klaster"
 export * from "./ArticleGerdu";
 export * from "./ArticlePucung";
 export * from "./ArticleSemampiran";
 export * from "./ArticleSemimpen";
+export * from "./ArticleSaintek";
+export * from "./ArticleSoshum";
+export * from "./ArticleAgro";
+export * from "./ArticleMedika";

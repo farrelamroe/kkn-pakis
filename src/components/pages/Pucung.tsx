@@ -4,7 +4,7 @@ import {
   Container,
   H1,
   H3,
-  SubunitHero,
+  SubunitKlasterHero,
   dataPucung,
 } from "@/components";
 
@@ -14,8 +14,8 @@ export function Pucung() {
       <div className="ml-[50px]">
         <ArrowBack />
       </div>
-      <SubunitHero
-        image="/pucung/pucung-hero.png"
+      <SubunitKlasterHero
+        image="/pucung/hero.jpg"
         title={
           <>
             Sub Unit Pogalan 1

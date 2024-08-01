@@ -3,7 +3,7 @@ import {
   Container,
   H1,
   H3,
-  SubunitHero,
+  SubunitKlasterHero,
   Text,
   dataGerdu,
   ArrowBack,
@@ -16,8 +16,8 @@ export function Gerdu() {
       <div className="ml-[50px]">
         <ArrowBack />
       </div>
-      <SubunitHero
-        image="/gerdu/gerdu-hero-edited.png"
+      <SubunitKlasterHero
+        image="/gerdu/hero.jpg"
         title={
           <>
             Sub Unit Pogalan 2

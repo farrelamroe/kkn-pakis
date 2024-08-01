@@ -4,7 +4,7 @@ import {
   Container,
   H1,
   H3,
-  SubunitHero,
+  SubunitKlasterHero,
   dataSemampiran,
 } from "@/components";
 
@@ -14,8 +14,8 @@ export function Semampiran() {
       <div className="ml-[50px]">
         <ArrowBack />
       </div>
-      <SubunitHero
-        image="/hero.png"
+      <SubunitKlasterHero
+        image="/semampiran/hero.jpg"
         title={
           <>
             Ketundan 1

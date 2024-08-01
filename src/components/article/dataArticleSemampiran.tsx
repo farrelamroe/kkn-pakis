@@ -11,7 +11,7 @@ type DataArticleSemampiran = {
 
 export const dataArticleSemampiran: DataArticleSemampiran = {
   "pertemuan-dengan-kepala-dusun": {
-    image: "/hero.png",
+    image: "/semampiran/week-1-hero.jpg",
     location: "Rumah Pak Bayan",
     title: "Pertemuan dengan Kepala Dusun",
     text: (
@@ -28,7 +28,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "diskusi-dengan-kepala-dusun": {
-    image: "/hero.png",
+    image: "/hero.jpg",
     location: "Rumah Pak Bayan",
     title: "Diskusi dengan Kepala Dusun",
     text: (
