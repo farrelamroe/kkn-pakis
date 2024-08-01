@@ -11,14 +11,14 @@ export function Homepage() {
       />
       <Container>
         <div className="relative my-[50px] h-full rounded-[54px] bg-[#D04736] px-[100px]">
-          <div className="relative flex h-full flex-col items-center justify-between gap-x-[70px] pb-[65px] pt-[103px] lg:flex-row">
+          <div className="relative flex h-full flex-col items-center justify-between gap-[70px] pb-[65px] pt-[103px] lg:flex-row">
             <div className="relative max-h-[350px] min-h-[300px] w-[390px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]">
               <Image
                 src="/pak-dimas.png"
                 width={1000}
                 height={1000}
                 alt="Pak Dimas"
-                className="relative"
+                className="relative lg:-bottom-20 xl:bottom-0"
               />
             </div>
             <div className="flex flex-col gap-y-[20px]">
@@ -42,7 +42,7 @@ export function Homepage() {
           src="https://www.youtube.com/embed/09788H9vnDs?si=MfiMKWcKjcUPeB9q"
           title="YouTube video player"
           sandbox="allow-same-origin allow-scripts allow-popups"
-          className="mt-[40px] aspect-video h-full max-h-[594px] w-full"
+          className="mt-[40px] aspect-video h-full max-h-[594px] w-full rounded-[8px]"
           allowFullScreen
         />
       </Container>

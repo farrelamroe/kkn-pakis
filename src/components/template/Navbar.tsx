@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { H2, dataNavbar } from "@/components";
 
 export function Navbar() {
@@ -10,9 +10,28 @@ export function Navbar() {
     setActive((prev) => !prev);
   };
 
+  const [hidden, setHidden] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    setHidden(currentScrollPos > prevScrollPos && currentScrollPos > 50);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
+
   return (
     <>
-      <div className="fixed top-0 z-[110] h-[82px] w-[100%] rounded-b-[8px] bg-primary text-center font-jakarta">
+      <div
+        className={`fixed z-[110] h-[82px] w-[100%] transform rounded-b-[8px] bg-primary text-center font-jakarta duration-[2000ms] ${hidden ? "-top-full" : "top-0"}`}
+      >
         <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-md">
           <Link href="/">
             <Image
@@ -83,15 +102,15 @@ export function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-y-hidden bg-primary pt-24 font-jakarta text-xl text-white duration-1000 lg:hidden ${
+        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-hidden bg-primary pt-24 font-jakarta text-xl text-secondary duration-1000 lg:hidden ${
           active ? "max-w-[75vw]" : "max-w-0"
-        }`}
+        } ${hidden ? "-left-full" : "-left-0"}`}
       >
         {dataNavbar.map(({ title, href }) => {
           return (
             <>
               <a href={href} key={title}>
-                <H2 className="duration-300 hover:cursor-pointer hover:font-bold">
+                <H2 className="duration-300 hover:cursor-pointer hover:font-bold whitespace-nowrap pl-[50px]">
                   {title}
                 </H2>
               </a>
