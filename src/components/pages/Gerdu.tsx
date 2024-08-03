@@ -1,14 +1,12 @@
 import {
-  Card,
   Container,
   H1,
   H3,
   SubunitKlasterHero,
-  Text,
   dataGerdu,
   ArrowBack,
+  Search,
 } from "@/components";
-import Image from "next/image";
 
 export function Gerdu() {
   return (
@@ -34,17 +32,7 @@ export function Gerdu() {
           testing, and blablabla
         </H3>
 
-        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
-          {dataGerdu.map(({ image, title, href }: any) => {
-            return (
-              <>
-                <a href={`/sub-unit/gerdu/${href}`} key={title}>
-                  <Card image={image} title={title} />
-                </a>
-              </>
-            );
-          })}
-        </div>
+        <Search items={dataGerdu} routeTo="sub-unit/gerdu" />
       </Container>
     </>
   );

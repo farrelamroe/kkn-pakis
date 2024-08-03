@@ -12,7 +12,7 @@ export function Card(props: any) {
           alt="image"
           width={305}
           height={180}
-          className="min-w-[180px] h-[180px] w-full rounded-[14px] object-cover object-center"
+          className="h-[180px] w-full min-w-[180px] rounded-[14px] object-cover object-center"
         />
         <H4 className="px-[20px] py-[32px] font-jakarta font-bold">{title}</H4>
       </div>

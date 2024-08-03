@@ -1,9 +1,4 @@
-import {
-  ArticleAgro,
-  ContainerArticle,
-  Footer,
-  Navbar,
-} from "@/components";
+import { ArticleAgro, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {

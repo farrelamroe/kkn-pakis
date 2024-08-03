@@ -4,6 +4,7 @@ import {
   Container,
   H1,
   H3,
+  Search,
   SubunitKlasterHero,
   dataPucung,
 } from "@/components";
@@ -32,17 +33,7 @@ export function Pucung() {
           testing, and blablabla
         </H3>
 
-        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
-          {dataPucung.map(({ image, title, href }: any) => {
-            return (
-              <>
-                <a href={`/sub-unit/pucung/${href}`} key={title}>
-                  <Card image={image} title={title} />
-                </a>
-              </>
-            );
-          })}
-        </div>
+        <Search items={dataPucung} routeTo="sub-unit/pucung" />
       </Container>
     </>
   );

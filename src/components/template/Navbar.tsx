@@ -26,7 +26,6 @@ export function Navbar() {
     };
   });
 
-
   return (
     <>
       <div
@@ -110,7 +109,7 @@ export function Navbar() {
           return (
             <>
               <a href={href} key={title}>
-                <H2 className="duration-300 hover:cursor-pointer hover:font-bold whitespace-nowrap pl-[50px]">
+                <H2 className="whitespace-nowrap pl-[50px] duration-300 hover:cursor-pointer hover:font-bold">
                   {title}
                 </H2>
               </a>

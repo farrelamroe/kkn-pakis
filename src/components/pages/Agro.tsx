@@ -1,9 +1,9 @@
 import {
   ArrowBack,
-  Card,
   Container,
   H1,
   H3,
+  Search,
   SubunitKlasterHero,
   dataAgro,
 } from "@/components";
@@ -32,17 +32,7 @@ export function Agro() {
           testing, and blablabla
         </H3>
 
-        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
-          {dataAgro.map(({ image, title, href }: any) => {
-            return (
-              <>
-                <a href={`/klaster/agro/${href}`} key={title}>
-                  <Card image={image} title={title} />
-                </a>
-              </>
-            );
-          })}
-        </div>
+        <Search items={dataAgro} routeTo="klaster/agro" />
       </Container>
     </>
   );

@@ -8,7 +8,7 @@ export * from "./Saintek";
 export * from "./Soshum";
 export * from "./Medika";
 export * from "./Agro";
-export * from "./Klaster"
+export * from "./Klaster";
 export * from "./ArticleGerdu";
 export * from "./ArticlePucung";
 export * from "./ArticleSemampiran";

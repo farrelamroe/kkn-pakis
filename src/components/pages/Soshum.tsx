@@ -4,6 +4,7 @@ import {
   Container,
   H1,
   H3,
+  Search,
   SubunitKlasterHero,
   dataSoshum,
 } from "@/components";
@@ -32,17 +33,7 @@ export function Soshum() {
           testing, and blablabla
         </H3>
 
-        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
-          {dataSoshum.map(({ image, title, href }: any) => {
-            return (
-              <>
-                <a href={`/klaster/soshum/${href}`} key={title}>
-                  <Card image={image} title={title} />
-                </a>
-              </>
-            );
-          })}
-        </div>
+        <Search items={dataSoshum} routeTo="klaster/soshum" />
       </Container>
     </>
   );

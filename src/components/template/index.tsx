@@ -4,6 +4,7 @@ export * from "./Card";
 export * from "./Footer";
 export * from "./SubunitKlasterCard";
 export * from "./SubunitKlasterHero";
+export * from "./Search";
 export * from "./MainSubunitKlasterHero";
 export * from "./MainHero";
 export * from "./Navbar";
