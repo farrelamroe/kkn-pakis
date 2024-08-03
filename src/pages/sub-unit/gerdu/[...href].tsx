@@ -2,7 +2,7 @@ import { ArticleGerdu, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {
-  const routes = ["pesona-gerdu"];
+  const routes = ["profil-dusun-gerdu", "video-profil-pogalan"];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
