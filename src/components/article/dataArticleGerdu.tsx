@@ -107,16 +107,17 @@ export const dataArticleGerdu: DataArticleGerdu = {
         </Text>
 
         {/* Tampilan Video Profil Pogalan */}
-        <div className="h-[594px] mt-[24px] rounded-lg flex justify-center">
-            <iframe
+        <div className="mt-[24px] flex h-[594px] justify-center rounded-lg">
+          <iframe
             className="rounded-lg shadow-[0_0px_35px_#D04736]"
             width="1300"
             height="570"
             src="https://www.youtube.com/embed/yjnSX_iUFVo?autoplay=1"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen></iframe>
-          </div>
+            allowFullScreen
+          ></iframe>
+        </div>
       </>
     ),
   },

@@ -6,11 +6,7 @@ export function Homepage() {
     <>
       <MainHero
         image="/foto-pakis-expand.png"
-        title={
-          <>
-            TIM KKN MELUKIS PAKIS 2024
-          </>
-        }
+        title={<>TIM KKN MELUKIS PAKIS 2024</>}
         description="Dolor magna in occaecat sint elit Lorem eiusmod dolor amet occaecat ipsum. Proident aute ipsum laborum sunt consequat ea ut duis quis et esse voluptate. Cillum aliquip excepteur ipsum Lorem ea nostrud aliquip laborum in labore exercitation"
       />
       {/* Pak Dimas */}
@@ -34,7 +30,7 @@ export function Homepage() {
                 Dosen Pembimbing Lapangan Tim Melukis Pakis 2024
               </P>
             </div>
-          </Container>
+          </div>
         </div>
       </Container>
       <Container className="my-[100px] text-center font-jakarta">

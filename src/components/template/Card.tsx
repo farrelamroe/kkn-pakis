@@ -14,7 +14,7 @@ export function Card(props: any) {
           height={180}
           className="h-[180px] w-full min-w-[180px] rounded-[14px] object-cover object-center"
         />
-        <div className="h-[84px] justify-center content-center">
+        <div className="h-[84px] content-center justify-center">
           <H4 className="px-[20px] font-jakarta font-bold">{title}</H4>
         </div>
       </div>
