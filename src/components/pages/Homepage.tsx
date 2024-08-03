@@ -37,25 +37,6 @@ export function Homepage() {
           </Container>
         </div>
       </Container>
-
-      {/* Tampilan Video Profil Pogalan */}
-      <Container className="h-[946px]">
-        <div className="my-[100px]">
-          <H2 className="font-bold font-jakarta lg:text-[48px] text-center">Video Profil Desa Pogalan</H2>
-          <H3 className="font-jakarta mt-[16px] lg:text-lg text-center">Salah satu program kerja di Pogalan 1 (Desa Gerdu) membuat video profil tentang Desa Pogalan. Simak Yuk!</H3>
-          <div className="h-[594px] mt-[24px] rounded-lg flex justify-center">
-            <iframe
-            className="rounded-lg shadow-[0_0px_35px_#D04736]"
-            width="1300"
-            height="570"
-            src="https://www.youtube.com/embed/yjnSX_iUFVo?autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </div>
-        </div>
-      </Container>
     </>
   );
 }

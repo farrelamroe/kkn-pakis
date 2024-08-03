@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 export async function getStaticPaths() {
-  const routes = ["profil-dusun-gerdu"];
+  const routes = ["profil-dusun-gerdu", "video-profil-pogalan"];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
