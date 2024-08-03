@@ -15,7 +15,7 @@ export function Medika() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/semampiran/semampiran-hero.png"
+        image="/medika/hero.png"
         title={
           <>
             Klaster

@@ -1,21 +1,21 @@
 export const dataKlaster = [
   {
-    image: "/gerdu/gerdu-card.png",
+    image: "/gerdu/card.jpg",
     title: "Saintek",
     href: "saintek",
   },
   {
-    image: "/pucung/pucung-card.png",
+    image: "/pucung/card.jpg",
     title: "Soshum",
     href: "soshum",
   },
   {
-    image: "/semampiran/semampiran-card.png",
+    image: "/semampiran/card.jpg",
     title: "Medika",
     href: "medika",
   },
   {
-    image: "/semimpen/semimpen-hero.JPG",
+    image: "/semimpen/card.jpg",
     title: "Agro",
     href: "agro",
   },

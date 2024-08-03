@@ -1,6 +1,5 @@
 import {
   ArrowBack,
-  Card,
   Container,
   H1,
   H3,
@@ -16,7 +15,7 @@ export function Soshum() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/semampiran/semampiran-hero.png"
+        image="/soshum/hero.png"
         title={
           <>
             Klaster

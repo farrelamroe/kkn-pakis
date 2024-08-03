@@ -15,7 +15,7 @@ export function Agro() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/semampiran/semampiran-hero.png"
+        image="/agro/hero.png"
         title={
           <>
             Klaster

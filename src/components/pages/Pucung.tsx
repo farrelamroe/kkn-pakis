@@ -1,6 +1,5 @@
 import {
   ArrowBack,
-  Card,
   Container,
   H1,
   H3,
