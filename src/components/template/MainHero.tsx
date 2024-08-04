@@ -1,10 +1,16 @@
 import { Container, H1, H4 } from "@/components";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export function MainHero(props: any) {
   const { image, title, description } = props;
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <>
+    <div data-aos="fade-up">
       <Image
         src={image}
         alt=""
@@ -20,6 +26,6 @@ export function MainHero(props: any) {
           </H4>
         </div>
       </Container>
-    </>
+    </div>
   );
 }

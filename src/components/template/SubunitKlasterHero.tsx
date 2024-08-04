@@ -1,5 +1,7 @@
 import { H1, H2, H4, H5 } from "@/components";
 import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function SubunitKlasterHero(props: any) {
   const { image, title, description } = props;
@@ -20,6 +22,10 @@ export function SubunitKlasterHero(props: any) {
         window.removeEventListener("resize", handleResize);
       };
     }
+  }, []);
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
   }, []);
 
   if (windowWidth === null) {
@@ -43,8 +49,13 @@ export function SubunitKlasterHero(props: any) {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
+        data-aos="fade-up"
       >
-        <div className="relative top-[35%] px-[20px] xs:top-[40%] lg:px-[54px]">
+        <div
+          className="relative top-[35%] px-[20px] xs:top-[40%] lg:px-[54px]"
+          data-aos="fade-right"
+          data-aos-delay="500"
+        >
           <HeadingTag className="font-alatsi font-bold text-white">
             {title}
           </HeadingTag>

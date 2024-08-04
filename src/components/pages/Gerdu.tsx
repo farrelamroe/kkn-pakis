@@ -7,8 +7,14 @@ import {
   ArrowBack,
   Search,
 } from "@/components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export function Gerdu() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <div className="ml-[50px]">
@@ -25,15 +31,17 @@ export function Gerdu() {
         }
         description=""
       />
-      <Container className="mt-[101px] font-jakarta">
-        <H1 className="font-bold">Let’s See Our Sub Unit Gerdu!</H1>
-        <H3 className="pt-[24px]">
-          The rise of RESTful APIs has been met by a rise in tools for creating,
-          testing, and blablabla
-        </H3>
+      <div data-aos="fade-up">
+        <Container className="mt-[101px] font-jakarta">
+          <H1 className="font-bold">Let’s See Our Sub Unit Gerdu!</H1>
+          <H3 className="pt-[24px]">
+            The rise of RESTful APIs has been met by a rise in tools for
+            creating, testing, and blablabla
+          </H3>
 
-        <Search items={dataGerdu} routeTo="sub-unit/gerdu" />
-      </Container>
+          <Search items={dataGerdu} routeTo="sub-unit/gerdu" />
+        </Container>
+      </div>
     </>
   );
 }

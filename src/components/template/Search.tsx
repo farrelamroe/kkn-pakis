@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, H3 } from "@/components";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface Item {
   image: string;
@@ -26,6 +28,10 @@ export function Search({ items, routeTo }: SearchProps) {
     );
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="mt-[48px]">
       <input
@@ -34,9 +40,13 @@ export function Search({ items, routeTo }: SearchProps) {
         onChange={handleSearch}
         className="border-gray-300 mx-auto block w-full max-w-[375px] rounded-md border p-2"
         placeholder="Search..."
+        data-aos="fade-up"
       />
       {filteredItems.length > 0 ? (
-        <div className="mb-[100px] mt-[48px] grid items-center gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          className="mb-[100px] mt-[48px] grid items-center gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4"
+          data-aos="fade-up"
+        >
           {filteredItems.map(({ image, title, href }) => (
             <a href={`/${routeTo}/${href}`} key={title}>
               <Card image={image} title={title} />

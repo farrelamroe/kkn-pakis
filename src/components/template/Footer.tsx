@@ -1,13 +1,22 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { Container, Text } from "@/components";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export function Footer() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Container className="rounded-t-[20px] bg-secondary font-jakarta text-white">
         <div className="mb-[26.75px] mt-[70px] flex h-full w-full flex-col items-start justify-start gap-y-[32px] lg:flex-row lg:justify-between">
-          <div className="flex flex-col items-start gap-y-[16px]">
+          <div
+            className="flex flex-col items-start gap-y-[16px]"
+            data-aos="fade-right"
+          >
             <div className="flex flex-row justify-between gap-x-[12px]">
               <Image
                 src="/logo-ugm.png"
@@ -33,7 +42,7 @@ export function Footer() {
             />
           </div>
           <div className="flex flex-row flex-wrap items-start gap-x-[100px] gap-y-[32px]">
-            <div className="flex flex-col gap-y-[17px]">
+            <div className="flex flex-col gap-y-[17px]" data-aos="fade-left">
               <Text size="lg" className="font-jakarta font-bold">
                 Klaster
               </Text>
@@ -60,7 +69,11 @@ export function Footer() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col gap-y-[17px]">
+            <div
+              className="flex flex-col gap-y-[17px]"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
               <Text size="lg" className="font-jakarta font-bold">
                 Sub Unit
               </Text>
@@ -87,7 +100,11 @@ export function Footer() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col gap-y-[17px]">
+            <div
+              className="flex flex-col gap-y-[17px]"
+              data-aos="fade-left"
+              data-aos-delay="600"
+            >
               <Text size="lg" className="font-jakarta font-bold">
                 Kontak Kami
               </Text>
@@ -123,6 +140,7 @@ export function Footer() {
             </div>
           </div>
         </div>
+
         <Text size="md" className="mb-[70px]">
           Copyright 2024 Melukis Pakis
         </Text>
