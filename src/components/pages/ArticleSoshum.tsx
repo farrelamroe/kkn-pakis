@@ -12,7 +12,7 @@ export function ArticleSoshum({ href }: any) {
   return (
     <>
       <ArrowBack />
-      <Image
+      <img
         src={data.image}
         alt="image"
         height={312}

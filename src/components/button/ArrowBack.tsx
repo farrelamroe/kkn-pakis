@@ -16,7 +16,7 @@ export function ArrowBack() {
       onClick={() => router.back()}
       data-aos="fade-right"
     >
-      <Image
+      <img
         src="/arrow.png"
         alt=""
         width={15}
