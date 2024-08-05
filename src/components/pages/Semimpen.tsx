@@ -30,14 +30,14 @@ export function Semimpen() {
             Dusun Semimpen
           </>
         }
-        description=""
+        description="Sub unit Ketundan 2 (Dusun Semimpen) dalam KKN PPM UGM berfokus pada pemberdayaan masyarakat, pengembangan infrastruktur, dan peningkatan layanan kesehatan di dusun tersebut."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Sub Unit Semimpen!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
+            Ketundan 2
           </H3>
 
           <Search items={dataSemimpen} routeTo="sub-unit/semimpen" />

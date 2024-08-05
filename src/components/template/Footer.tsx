@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { Container, Text } from "@/components";
+import { Container, H5, Text } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,13 +33,20 @@ export function Footer() {
                 className="w-[57px]"
               />
             </div>
-            <Image
-              src="/logo-pakis-white.png"
-              alt="image"
-              height={1000}
-              width={1000}
-              className="w-[142px]"
-            />
+            <div className="flex flex-row items-center gap-x-[10px]">
+              <Image
+                src="/logo-pakis.png"
+                alt="image"
+                height={1000}
+                width={1000}
+                className="w-[44px]"
+              />
+              <H5 className="font-jakarta">
+                Melukis
+                <br />
+                Pakis
+              </H5>
+            </div>
           </div>
           <div className="flex flex-row flex-wrap items-start gap-x-[100px] gap-y-[32px]">
             <div className="flex flex-col gap-y-[17px]" data-aos="fade-left">
@@ -48,22 +55,34 @@ export function Footer() {
               </Text>
               <div className="flex flex-col gap-y-[5px]">
                 <a href="/klaster/saintek">
-                  <Text size="lg" className="duration-300 hover:font-bold">
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
                     Saintek
                   </Text>
                 </a>
                 <a href="/klaster/soshum">
-                  <Text size="lg" className="duration-300 hover:font-bold">
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
                     Soshum
                   </Text>
                 </a>
                 <a href="/klaster/agro">
-                  <Text size="lg" className="duration-300 hover:font-bold">
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
                     Agro
                   </Text>
                 </a>
                 <a href="/klaster/medika">
-                  <Text size="lg" className="duration-300 hover:font-bold">
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
                     Medika
                   </Text>
                 </a>
@@ -79,23 +98,35 @@ export function Footer() {
               </Text>
               <div className="flex flex-col gap-y-[5px]">
                 <a href="/sub-unit/pucung">
-                  <Text size="lg" className="duration-300 hover:font-bold">
-                    Pogalan 1 (Pucung)
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
+                    Pogalan 1
                   </Text>
                 </a>
                 <a href="/sub-unit/gerdu">
-                  <Text size="lg" className="duration-300 hover:font-bold">
-                    Pogalan 2 (Gerdu)
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
+                    Pogalan 2
                   </Text>
                 </a>
                 <a href="/sub-unit/semampiran">
-                  <Text size="lg" className="duration-300 hover:font-bold">
-                    Ketundan 1 (Semampiran)
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
+                    Ketundan 1
                   </Text>
                 </a>
                 <a href="/sub-unit/semimpen">
-                  <Text size="lg" className="duration-300 hover:font-bold">
-                    Ketundan 2 (Semimpen)
+                  <Text
+                    size="lg"
+                    className="underline-animation duration-300 hover:font-bold"
+                  >
+                    Ketundan 2
                   </Text>
                 </a>
               </div>

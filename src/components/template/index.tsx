@@ -8,3 +8,4 @@ export * from "./Search";
 export * from "./MainSubunitKlasterHero";
 export * from "./MainHero";
 export * from "./Navbar";
+export * from "./Counter"

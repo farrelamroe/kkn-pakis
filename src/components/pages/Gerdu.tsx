@@ -29,14 +29,14 @@ export function Gerdu() {
             Dusun Gerdu
           </>
         }
-        description=""
+        description="Sub unit Pogalan 2 (Dusun Gerdu) pada KKN PPM UGM berfokus pada pengembangan masyarakat lokal melalui program pendidikan, kesehatan, dan pemberdayaan ekonomi dan wisata."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Sub Unit Gerdu!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
+            Pogalan 2
           </H3>
 
           <Search items={dataGerdu} routeTo="sub-unit/gerdu" />

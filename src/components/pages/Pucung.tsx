@@ -29,14 +29,13 @@ export function Pucung() {
             Dusun Pucung
           </>
         }
-        description=""
+        description="Sub unit Pogalan 1 (Dusun Pucung) pada KKN PPM UGM fokus pada pengembangan masyarakat melalui berbagai program pemberdayaan, pendidikan, dan infrastruktur lokal."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Sub Unit Pucung!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit Pogalan 1
           </H3>
 
           <Search items={dataPucung} routeTo="sub-unit/pucung" />

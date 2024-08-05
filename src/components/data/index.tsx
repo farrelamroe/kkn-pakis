@@ -9,3 +9,4 @@ export * from "./dataSoshum";
 export * from "./dataAgro";
 export * from "./dataMedika";
 export * from "./dataKlaster";
+export * from "./dataBeranda"

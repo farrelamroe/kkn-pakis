@@ -46,7 +46,7 @@ export function Navbar() {
               return (
                 <>
                   <a href={href} key={title}>
-                    <p className="duration-300 hover:cursor-pointer hover:font-bold hover:underline hover:underline-offset-8">
+                    <p className="underline-animation duration-300 hover:cursor-pointer hover:font-bold">
                       {title}
                     </p>
                   </a>

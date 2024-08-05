@@ -29,14 +29,13 @@ export function Saintek() {
             Saintek
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description="Klaster Saintek pada KKN PPM UGM fokus pada penerapan ilmu sains dan teknologi untuk mengatasi masalah dan meningkatkan kualitas hidup masyarakat."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Klaster Saintek!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh klaster saintek
           </H3>
 
           <Search items={dataSaintek} routeTo="klaster/saintek" />

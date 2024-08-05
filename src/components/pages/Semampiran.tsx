@@ -29,14 +29,14 @@ export function Semampiran() {
             Semampiran
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description="Sub unit Ketundan 1 (Dusun Semampiran) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Sub Unit Semampiran!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
+            Ketundan 1
           </H3>
 
           <Search items={dataSemampiran} routeTo="sub-unit/semampiran" />

@@ -30,14 +30,14 @@ export function Soshum() {
             Soshum
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description="Klaster Soshum pada KKN PPM UGM melibatkan mahasiswa dari bidang sosial humaniora untuk menerapkan ilmu dalam pemberdayaan masyarakat dan pengembangan sosial-ekonomi di lokasi KKN."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Klaster Soshum!</H1>
           <H3 className="pt-[24px]">
-            The rise of RESTful APIs has been met by a rise in tools for
-            creating, testing, and blablabla
+            Berikut adalah program kerja yang telah dilaksanakan oleh klaster
+            soshum
           </H3>
 
           <Search items={dataSoshum} routeTo="klaster/soshum" />

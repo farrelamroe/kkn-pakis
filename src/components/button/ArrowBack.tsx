@@ -12,7 +12,7 @@ export function ArrowBack() {
   }, []);
   return (
     <div
-      className="mt-[111px] flex flex-row items-center justify-start gap-x-1 duration-300 hover:cursor-pointer hover:font-bold"
+      className="mt-[111px] flex flex-row items-center justify-start gap-x-1"
       onClick={() => router.back()}
       data-aos="fade-right"
     >
@@ -23,7 +23,7 @@ export function ArrowBack() {
         height={50}
         className="h-fit w-fit"
       />
-      <Text size="xs" className="font-jakarta">
+      <Text size="xs" className="font-jakarta" className=" duration-300 hover:cursor-pointer hover:font-bold underline-animation">
         Kembali
       </Text>
     </div>

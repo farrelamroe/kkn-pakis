@@ -19,7 +19,7 @@ export function Subunit() {
       <MainSubunitKlasterHero
         image="/hero.png"
         title="Sub Unit"
-        description=""
+        description="Sub-Unit pada KKN PPM UGM adalah kelompok kecil mahasiswa yang bekerja sama dalam proyek pengabdian masyarakat untuk mencapai tujuan spesifik di lokasi KKN."
       />
       <div data-aos="fade-up">
         <Container className="pt-[101px] font-jakarta">

@@ -23,13 +23,12 @@ export function Agro() {
             Agro
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description="Klaster Agro pada KKN PPM UGM fokus pada pengembangan sektor pertanian, perkebunan, dan peternakan melalui pemberdayaan masyarakat dan inovasi teknologi pertanian."
       />
       <Container className="mt-[101px] font-jakarta">
         <H1 className="font-bold">Let’s See Our Klaster Agro!</H1>
         <H3 className="pt-[24px]">
-          The rise of RESTful APIs has been met by a rise in tools for creating,
-          testing, and blablabla
+          Berikut adalah program kerja yang telah dilaksanakan oleh klaster agro
         </H3>
 
         <Search items={dataAgro} routeTo="klaster/agro" />

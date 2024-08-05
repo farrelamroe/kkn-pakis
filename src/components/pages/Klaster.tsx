@@ -19,7 +19,7 @@ export function Klaster() {
       <MainSubunitKlasterHero
         image="/hero.png"
         title="Klaster"
-        description=""
+        description="Klaster pada KKN PPM UGM mengacu pada pembagian kelompok mahasiswa berdasarkan disiplin ilmu untuk memaksimalkan dampak pengabdian masyarakat."
       />
       <div data-aos="fade-up">
         <Container className="pt-[101px] font-jakarta">
