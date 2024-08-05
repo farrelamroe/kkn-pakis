@@ -1,4 +1,13 @@
-import { Container, MainHero, H1, H5, H4, P, dataBeranda, Counter } from "@/components";
+import {
+  Container,
+  MainHero,
+  H1,
+  H5,
+  H4,
+  P,
+  dataBeranda,
+  Counter,
+} from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -48,10 +57,7 @@ export function Homepage() {
                       />
                       <div className="flex flex-col items-start font-jakarta text-white">
                         <H5>{text}</H5>
-                        <Counter
-                          end={end}
-                          duration={2000}
-                        />
+                        <Counter end={end} duration={2000} />
                       </div>
                     </div>
                   </>

@@ -35,7 +35,8 @@ export function Pucung() {
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Sub Unit Pucung!</H1>
           <H3 className="pt-[24px]">
-            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit Pogalan 1
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
+            Pogalan 1
           </H3>
 
           <Search items={dataPucung} routeTo="sub-unit/pucung" />

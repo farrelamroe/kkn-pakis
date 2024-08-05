@@ -23,7 +23,10 @@ export function ArrowBack() {
         height={50}
         className="h-fit w-fit"
       />
-      <Text size="xs" className="font-jakarta" className=" duration-300 hover:cursor-pointer hover:font-bold underline-animation">
+      <Text
+        size="xs"
+        className="underline-animation font-jakarta duration-300 hover:cursor-pointer hover:font-bold"
+      >
         Kembali
       </Text>
     </div>
