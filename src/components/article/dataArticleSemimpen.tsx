@@ -108,7 +108,7 @@ export const dataArticleSemimpen: DataArticleSemimpen = {
         <H2 className="font-bold">Kubro Dangdut (Brondut)</H2>
         <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
-          <img
+          <Image
             src="/semimpen/brondut.jpg"
             alt=""
             width={1000}

@@ -18,14 +18,14 @@ export function Footer() {
             data-aos="fade-right"
           >
             <div className="flex flex-row justify-between gap-x-[12px]">
-              <img
+              <Image
                 src="/logo-ugm.png"
                 alt="image"
                 height={1000}
                 width={1000}
                 className="w-[57px]"
               />
-              <img
+              <Image
                 src="/logo-kkn.png"
                 alt="image"
                 height={1000}
@@ -34,7 +34,7 @@ export function Footer() {
               />
             </div>
             <div className="flex flex-row items-center gap-x-[10px]">
-              <img
+              <Image
                 src="/logo-pakis.png"
                 alt="image"
                 height={1000}
@@ -141,7 +141,7 @@ export function Footer() {
               </Text>
               <div className="flex flex-row gap-x-[9.33px]">
                 <a href="https://www.instagram.com/melukis.pakis/">
-                  <img
+                  <Image
                     src="/instagram.png"
                     alt="image"
                     height={1000}
@@ -150,7 +150,7 @@ export function Footer() {
                   />
                 </a>
                 <a href="mailto:kknpakis2023@gmail.com">
-                  <img
+                  <Image
                     src="/gmail.png"
                     alt="image"
                     height={1000}
@@ -159,7 +159,7 @@ export function Footer() {
                   />
                 </a>
                 <a href="https://www.tiktok.com/@melukispakis">
-                  <img
+                  <Image
                     src="/tiktok.png"
                     alt="image"
                     height={1000}

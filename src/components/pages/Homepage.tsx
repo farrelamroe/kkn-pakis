@@ -30,7 +30,7 @@ export function Homepage() {
           data-aos="zoom-in"
         >
           <div className="relative mx-[100px] flex flex-col items-center justify-between gap-[40px] py-[65px] lg:flex-row">
-            <img
+            <Image
               src="/peta-pakis.png"
               width={1000}
               height={1000}
@@ -48,7 +48,7 @@ export function Homepage() {
                       key={i}
                       data-aos="fade-left"
                     >
-                      <img
+                      <Image
                         src={image}
                         width={1000}
                         height={1000}
@@ -78,7 +78,7 @@ export function Homepage() {
               data-aos="fade-right"
               data-aos-delay="500"
             >
-              <img
+              <Image
                 src="/pak-dimas.png"
                 width={1000}
                 height={1000}

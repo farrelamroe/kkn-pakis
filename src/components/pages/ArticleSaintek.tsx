@@ -12,7 +12,7 @@ export function ArticleSaintek({ href }: any) {
   return (
     <>
       <ArrowBack />
-      <img
+      <Image
         src={data.image}
         alt="image"
         height={312}

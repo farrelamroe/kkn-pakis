@@ -36,7 +36,7 @@ export const dataArticleGerdu: DataArticleGerdu = {
         </Text>
         <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
-          <img
+          <Image
             src="/gerdu/tugu.jpg"
             alt=""
             width={1000}

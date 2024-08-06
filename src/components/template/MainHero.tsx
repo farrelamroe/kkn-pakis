@@ -11,7 +11,7 @@ export function MainHero(props: any) {
   }, []);
   return (
     <div data-aos="fade-up">
-      <img
+      <Image
         src={image}
         alt=""
         height={10000}
