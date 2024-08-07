@@ -7,7 +7,15 @@ import {
 import Head from "next/head";
 
 export async function getStaticPaths() {
-  const routes = ["pesona-semimpen"];
+  const routes = [
+    "etika-sosial-media",
+    "pesona-semimpen",
+    "dompet-digital",
+    "keamanan-data",
+    "belajar-calistung",
+    "keuangan-rumah-tangga",
+    "simulasi-anbk",
+  ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
