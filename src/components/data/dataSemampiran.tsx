@@ -6,7 +6,7 @@ export const dataSemampiran = [
   },
   {
     image: "/hero.png",
-    title: "Diskusi dengan Kepala Dusun",
-    href: "diskusi-dengan-kepala-dusun",
+    title: "Pesona Semampiran",
+    href: "pesona-semampiran",
   },
 ];

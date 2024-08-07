@@ -18,12 +18,12 @@ export function Semampiran() {
         image="/hero.png"
         title={
           <>
-            Ketundan 1
+            Sub Unit Ketundan 1
             <br />
-            Semampiran
+            Dusun Semampiran
           </>
         }
-        description="Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja ajsdbjaadh aidshaldhaldhalksdha akhsdald. Ini penjelasan singkat dari sub unit blablabla ajsdoajds oajsadjao aisodaodja."
+        description=""
       />
       <Container className="mt-[101px] font-jakarta">
         <H1 className="font-bold">Let’s See Our Sub Unit Semampiran!</H1>

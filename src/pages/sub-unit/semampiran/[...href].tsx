@@ -5,7 +5,7 @@ import Image from "next/image";
 export async function getStaticPaths() {
   const routes = [
     "pertemuan-dengan-kepala-dusun",
-    "diskusi-dengan-kepala-dusun",
+    "pesona-semampiran",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
