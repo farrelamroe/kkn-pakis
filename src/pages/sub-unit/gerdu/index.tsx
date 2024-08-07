@@ -1,4 +1,4 @@
-import { Gerdu, Navbar } from "@/components";
+import { Footer, Gerdu, Navbar } from "@/components";
 import Head from "next/head";
 
 export default function GerduPage() {
@@ -11,6 +11,7 @@ export default function GerduPage() {
       <main>
         <Navbar />
         <Gerdu />
+        <Footer />
       </main>
     </>
   );

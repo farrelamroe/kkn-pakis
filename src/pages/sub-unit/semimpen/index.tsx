@@ -1,4 +1,4 @@
-import { Semimpen, Navbar } from "@/components";
+import { Semimpen, Navbar, Footer } from "@/components";
 import Head from "next/head";
 
 export default function SemimpenPage() {
@@ -11,6 +11,7 @@ export default function SemimpenPage() {
       <main>
         <Navbar />
         <Semimpen />
+        <Footer />
       </main>
     </>
   );

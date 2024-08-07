@@ -1,6 +1,10 @@
-import { ArticleSemimpen, ContainerArticle, Navbar } from "@/components";
+import {
+  ArticleSemimpen,
+  ContainerArticle,
+  Footer,
+  Navbar,
+} from "@/components";
 import Head from "next/head";
-import Image from "next/image";
 
 export async function getStaticPaths() {
   const routes = ["pesona-semimpen"];
@@ -28,6 +32,7 @@ export default function SemimpenArticle({ href }: any) {
       <ContainerArticle>
         <ArticleSemimpen href={href} />
       </ContainerArticle>
+      <Footer />
     </>
   );
 }

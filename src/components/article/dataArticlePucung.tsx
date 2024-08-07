@@ -1,4 +1,4 @@
-import { H3, Text } from "@/components";
+import { Text } from "@/components";
 
 type Article = {
   image: string;
@@ -13,7 +13,7 @@ type DataArticlePucung = {
 
 export const dataArticlePucung: DataArticlePucung = {
   "pesona-pucung": {
-    image: "/pucung/week-1-pucung-1.jpeg",
+    image: "/pucung/week-1-hero.jpeg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Pesona Pucung",
     text: (

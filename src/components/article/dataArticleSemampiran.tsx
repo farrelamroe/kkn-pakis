@@ -11,23 +11,6 @@ type DataArticleSemampiran = {
 };
 
 export const dataArticleSemampiran: DataArticleSemampiran = {
-  "pertemuan-dengan-kepala-dusun": {
-    image: "/hero.png",
-    location: "Rumah Pak Bayan",
-    title: "Pertemuan dengan Kepala Dusun",
-    text: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-        <br />
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </>
-    ),
-  },
   "pesona-semampiran": {
     image: "/hero.png",
     location: "Dusun Semampiran, Kelurahan Ketundan",

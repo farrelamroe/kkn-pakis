@@ -1,10 +1,4 @@
-import {
-  Gerdu,
-  MainSubunitHero,
-  Navbar,
-  SubunitHero,
-  Subunit,
-} from "@/components";
+import { Navbar, Subunit, Footer } from "@/components";
 import Head from "next/head";
 
 export default function SubunitPage() {
@@ -17,6 +11,7 @@ export default function SubunitPage() {
       <main>
         <Navbar />
         <Subunit />
+        <Footer />
       </main>
     </>
   );

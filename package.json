@@ -5,16 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "format": "prettier --write ."
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

@@ -1,21 +1,27 @@
 import {
   ArrowBack,
-  Card,
   Container,
   H1,
   H3,
-  SubunitHero,
+  Search,
+  SubunitKlasterHero,
   dataSemampiran,
 } from "@/components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export function Semampiran() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <div className="ml-[50px]">
         <ArrowBack />
       </div>
-      <SubunitHero
-        image="/hero.png"
+      <SubunitKlasterHero
+        image="/semampiran/hero.jpg"
         title={
           <>
             Sub Unit Ketundan 1
@@ -23,27 +29,19 @@ export function Semampiran() {
             Dusun Semampiran
           </>
         }
-        description=""
+        description="Sub unit Ketundan 1 (Dusun Semampiran) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
       />
-      <Container className="mt-[101px] font-jakarta">
-        <H1 className="font-bold">Let’s See Our Sub Unit Semampiran!</H1>
-        <H3 className="pt-[24px]">
-          The rise of RESTful APIs has been met by a rise in tools for creating,
-          testing, and blablabla
-        </H3>
+      <div data-aos="fade-up">
+        <Container className="mt-[101px] font-jakarta">
+          <H1 className="font-bold">Let’s See Our Sub Unit Semampiran!</H1>
+          <H3 className="pt-[24px]">
+            Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
+            Ketundan 1
+          </H3>
 
-        <div className="mb-[100px] mt-[48px] grid gap-x-[28px] gap-y-[40px] sm:grid-cols-2 lg:grid-cols-4">
-          {dataSemampiran.map(({ image, title, href }: any) => {
-            return (
-              <>
-                <a href={`/sub-unit/semampiran/${href}`} key={title}>
-                  <Card image={image} title={title} />
-                </a>
-              </>
-            );
-          })}
-        </div>
-      </Container>
+          <Search items={dataSemampiran} routeTo="sub-unit/semampiran" />
+        </Container>
+      </div>
     </>
   );
 }

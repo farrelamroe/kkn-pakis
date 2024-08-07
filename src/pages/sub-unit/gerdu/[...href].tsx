@@ -1,9 +1,8 @@
-import { ArticleGerdu, ContainerArticle, Navbar } from "@/components";
+import { ArticleGerdu, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
-import Image from "next/image";
 
 export async function getStaticPaths() {
-  const routes = ["pesona-gerdu"];
+  const routes = ["pesona-gerdu", "video-profil-pogalan"];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
@@ -28,6 +27,7 @@ export default function GerduArticle({ href }: any) {
       <ContainerArticle>
         <ArticleGerdu href={href} />
       </ContainerArticle>
+      <Footer />
     </>
   );
 }
