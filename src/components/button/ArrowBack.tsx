@@ -21,7 +21,7 @@ export function ArrowBack() {
         alt=""
         width={15}
         height={15}
-        className="h-fit w-fit max-h-[15px] max-w-[15px]"
+        className="h-fit max-h-[15px] w-fit max-w-[15px]"
       />
       <Text
         size="xs"

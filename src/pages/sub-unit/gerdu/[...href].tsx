@@ -2,7 +2,19 @@ import { ArticleGerdu, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {
-  const routes = ["pesona-gerdu", "video-profil-pogalan"];
+  const routes = [
+    "pesona-gerdu",
+    "video-profil-pogalan",
+    "pembayaran-digital-qris",
+    "peta-penggunaan-lahan",
+    "serah-terima-papan-informasi",
+    "pembuatan-jamu-cegah-stunting",
+    "peta-persebaran-umkm",
+    "pencegahan-stunting-dan-gizi-ikan",
+    "edukasi-mpasi",
+    "pembuatan-pupuk-organik-cair",
+    "analisis-destinasi-wisata",
+  ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });

@@ -15,6 +15,12 @@ export async function getStaticPaths() {
     "belajar-calistung",
     "keuangan-rumah-tangga",
     "simulasi-anbk",
+    "mineral-blok",
+    "edukasi-gizi-seimbang",
+    "pemilahan-sampah",
+    "konversi-limbah",
+    "penanaman-jahe-dan-sereh",
+    "layanan-posyandu-dan-mpasi",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

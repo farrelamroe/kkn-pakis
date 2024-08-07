@@ -7,9 +7,7 @@ import {
 import Head from "next/head";
 
 export async function getStaticPaths() {
-  const routes = [
-    "pesona-semampiran",
-  ];
+  const routes = ["pesona-semampiran"];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
