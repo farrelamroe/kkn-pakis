@@ -54,4 +54,9 @@ export const dataGerdu = [
     title: "Analisis Destinasi Wisata",
     href: "analisis-destinasi-wisata",
   },
+  {
+    image: "/gerdu/desain-baju-gerdu.png",
+    title: "Pembuatan Desain Baju Masyarakat Gerdu",
+    href: "desain-baju-gerdu",
+  }
 ];
