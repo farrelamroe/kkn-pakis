@@ -257,7 +257,7 @@ export function Homepage() {
                 width={1000}
                 height={1000}
                 alt="Tasya"
-                className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-[205px] lg:h-[295px] z-10 mt-[120px]"
+                className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-[205px] lg:h-[295px] z-10 mt-[50px]"
             />
             <div className="flex flex-col items-center">
               <div className="relative max-h-[240px] min-h-[220px] w-[205px] overflow-hidden rounded-b-[36px] rounded-t-[195px] border-[8px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]">
@@ -269,7 +269,26 @@ export function Homepage() {
                 </P>
                 <P className="font-jakarta text-[24px] lg:text-[20px] leading-[1.3] text-white text-center">
                   UX Writer
+                  <br />
+                  <br />
                 </P>
+              </div>
+              {/* Sosmed */}
+              <div className="flex flex-row gap-1 mt-1">
+                <Image
+                  src="/github-logo.png"
+                  width={1000}
+                  height={1000}
+                  alt="Logo Github"
+                  className="relative lg:-bottom-20 xl:bottom-0 lg:w-[40px] lg:h-[40px]"
+                />
+                <Image
+                  src="/linkedin-logo.png"
+                  width={1000}
+                  height={1000}
+                  alt="Logo Linkedin"
+                  className="relative lg:-bottom-20 xl:bottom-0 lg:w-[40px] lg:h-[40px]"
+                />
               </div>
             </div>
           </div>
