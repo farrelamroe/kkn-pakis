@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Text } from "@/components"
 
 type Article = {
@@ -19,7 +20,7 @@ export const dataArticleMedika: DataArticleMedika = {
     text: (
       <>
          <Text size="lg" className="indent-10">
-         KKN PPM UGM periode 2 tahun 2024 mengadakan kegiatan edukasi kesehatan bertajuk "Farmasi Cilik dan Dagusibu" yang diikuti oleh siswa kelas 5 SD Negeri Pogalan 3 selama dua hari. Kegiatan ini bertujuan untuk memberikan pengetahuan dasar tentang penggunaan obat yang benar serta pencegahan penyalahgunaan obat sejak dini. Selain itu, siswa juga diedukasi tentang penyakit yang umum terjadi seperti diabetes dilengkapi cara pencegahannya. 
+         KKN PPM UGM periode 2 tahun 2024 mengadakan kegiatan edukasi kesehatan bertajuk &quot;Farmasi Cilik dan Dagusibu&quot; yang diikuti oleh siswa kelas 5 SD Negeri Pogalan 3 selama dua hari. Kegiatan ini bertujuan untuk memberikan pengetahuan dasar tentang penggunaan obat yang benar serta pencegahan penyalahgunaan obat sejak dini. Selain itu, siswa juga diedukasi tentang penyakit yang umum terjadi seperti diabetes dilengkapi cara pencegahannya. 
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -27,7 +28,7 @@ export const dataArticleMedika: DataArticleMedika = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-        Setelah pemaparan materi, siswa mengikuti sesi permainan interaktif "Game Menggerus Obat". Dalam permainan ini, siswa belajar cara menggerus obat dengan benar, memahami dosis yang tepat, serta membaca label obat dengan cermat. Aktivitas ini dirancang untuk membuat proses belajar menjadi menyenangkan dan menarik, sehingga siswa lebih mudah mengingat informasi yang diberikan. Pada game ini dipilih kelompok yang paling cepat dan rapi dalam melipat pulveres sebagai juaranya. Selain itu, dilakukan juga kuis untuk menguji pemahaman siswa tentang materi yang telah disampaikan. Siswa yang berhasil menjawab pertanyaan dengan benar mendapatkan hadiah kecil sebagai bentuk apresiasi.
+        Setelah pemaparan materi, siswa mengikuti sesi permainan interaktif &quot;Game Menggerus Obat&quot;. Dalam permainan ini, siswa belajar cara menggerus obat dengan benar, memahami dosis yang tepat, serta membaca label obat dengan cermat. Aktivitas ini dirancang untuk membuat proses belajar menjadi menyenangkan dan menarik, sehingga siswa lebih mudah mengingat informasi yang diberikan. Pada game ini dipilih kelompok yang paling cepat dan rapi dalam melipat pulveres sebagai juaranya. Selain itu, dilakukan juga kuis untuk menguji pemahaman siswa tentang materi yang telah disampaikan. Siswa yang berhasil menjawab pertanyaan dengan benar mendapatkan hadiah kecil sebagai bentuk apresiasi.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -35,7 +36,7 @@ export const dataArticleMedika: DataArticleMedika = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-        Setelah pemaparan materi, siswa diajak untuk membuat poster bertema "Ayo Cegah Diabetes dengan GEMBIRA". GEMBIRA merupakan singkatan cara pencegahan diabetes, yaitu Giat olahraga dan aktivitas fisik; Enyahkan rokok dan alkohol; Makan makanan sehat dengan gizi seimbang; Bahagia, kelola stres, dan istirahat yang cukup; Ingat batasi konsumsi gula, garam, dan lemak berlebih; Rutin periksa gula darah dan kadar HbA1c; dan Atur berat badan tetap ideal. Kebiasaan ini perlu diajarkan sejak dini karena biasanya diabetes disebabkan oleh gaya hidup sejak dini. Mereka dibagi menjadi kelompok-kelompok kecil dan diberikan alat-alat untuk membuat poster kreatif yang berisi pesan-pesan pencegahan diabetes. Aktivitas ini tidak hanya mengasah kreativitas siswa, tetapi juga menanamkan kesadaran akan pentingnya menjaga kesehatan sejak dini. Poster yang dihasilkan kemudian dipajang di majalah dinding sebagai bentuk kampanye kesehatan yang dapat dilihat oleh seluruh siswa dan guru.
+        Setelah pemaparan materi, siswa diajak untuk membuat poster bertema &quot;Ayo Cegah Diabetes dengan GEMBIRA&quot;. GEMBIRA merupakan singkatan cara pencegahan diabetes, yaitu Giat olahraga dan aktivitas fisik; Enyahkan rokok dan alkohol; Makan makanan sehat dengan gizi seimbang; Bahagia, kelola stres, dan istirahat yang cukup; Ingat batasi konsumsi gula, garam, dan lemak berlebih; Rutin periksa gula darah dan kadar HbA1c; dan Atur berat badan tetap ideal. Kebiasaan ini perlu diajarkan sejak dini karena biasanya diabetes disebabkan oleh gaya hidup sejak dini. Mereka dibagi menjadi kelompok-kelompok kecil dan diberikan alat-alat untuk membuat poster kreatif yang berisi pesan-pesan pencegahan diabetes. Aktivitas ini tidak hanya mengasah kreativitas siswa, tetapi juga menanamkan kesadaran akan pentingnya menjaga kesehatan sejak dini. Poster yang dihasilkan kemudian dipajang di majalah dinding sebagai bentuk kampanye kesehatan yang dapat dilihat oleh seluruh siswa dan guru.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -51,7 +52,7 @@ export const dataArticleMedika: DataArticleMedika = {
     text: (
       <>
          <Text size="lg" className="indent-10">
-         Program kerja KKN kami, "Mengenal Isi Piringku untuk Masa Depan Cerah," bertujuan untuk meningkatkan kesadaran anak-anak di SD N Ketundan 1 mengenai pentingnya konsumsi makanan bergizi. Dengan fokus pada pemahaman mengenai porsi yang tepat dari sayur, buah, dan protein, kami berharap anak-anak dapat menerapkan pengetahuan ini dalam pola makan sehari-hari mereka.
+         Program kerja KKN kami, &quot;Mengenal Isi Piringku untuk Masa Depan Cerah,&quot; bertujuan untuk meningkatkan kesadaran anak-anak di SD N Ketundan 1 mengenai pentingnya konsumsi makanan bergizi. Dengan fokus pada pemahaman mengenai porsi yang tepat dari sayur, buah, dan protein, kami berharap anak-anak dapat menerapkan pengetahuan ini dalam pola makan sehari-hari mereka.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -71,7 +72,7 @@ export const dataArticleMedika: DataArticleMedika = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-        Secara keseluruhan, program "Mengenal Isi Piringku untuk Masa Depan Cerah" berhasil menciptakan pengalaman belajar yang menyenangkan dan bermanfaat bagi anak-anak, serta meningkatkan kesadaran mereka mengenai pentingnya gizi dalam kehidupan sehari-hari.
+        Secara keseluruhan, program &quot;Mengenal Isi Piringku untuk Masa Depan Cerah&quot; berhasil menciptakan pengalaman belajar yang menyenangkan dan bermanfaat bagi anak-anak, serta meningkatkan kesadaran mereka mengenai pentingnya gizi dalam kehidupan sehari-hari.
         </Text>
       </>
     ),

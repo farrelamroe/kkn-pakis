@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Text, H2} from "@/components";
 
 type Article = {
@@ -27,7 +28,7 @@ export const dataArticlePucung: DataArticlePucung = {
           dari hiruk-pikuk perkotaan. Secara geografis, Dusun Pucung dikelilingi
           oleh perbukitan dan sawah yang hijau. Keberadaan perbukitan ini
           memberikan pemandangan alam yang menakjubkan, terutama saat matahari
-          terbit dan terbenam. Udara yang segar d bersih menjadi daya tarik
+          terbit dan terbenam. Udara yang segar dan bersih menjadi daya tarik
           tersendiri bagi para pengunjung yang datang untuk menikmati ketenangan
           dan keindahan alam. Di pagi hari, kabut tipis sering menyelimuti dusun
           ini, menciptakan suasana magis yang sulit ditemukan di tempat lain.
@@ -56,7 +57,7 @@ export const dataArticlePucung: DataArticlePucung = {
         <br />
         <Text size="lg" className="indent-10">
           Dusun Pucung juga memiliki beberapa daya tarik kesenian. Kesenian di
-          Dusun Pucung yaitu “Topeng Ireng”. Tarian ini memiliki ciri khas yang
+          Dusun Pucung yaitu &quot;Topeng Ireng&quot;. Tarian ini memiliki ciri khas yang
           unik karena penari mengenakan topeng hitam (ireng) yang melambangkan
           kekuatan gaib atau kekuatan magis. Tradisi ini berkembang sebagai
           bagian dari upacara atau perayaan tradisional, sering kali terkait
@@ -68,7 +69,7 @@ export const dataArticlePucung: DataArticlePucung = {
         <br />
         <Text size="lg" className="indent-10">
           Adapun daya tarik lainnya Dusun Pucung yaitu terdapat kelompok
-          pengrajin anyaman bambu “Sipta Mandiri”. Anyaman bambu adalah salah
+          pengrajin anyaman bambu &quot;Sipta Mandiri&quot;. Anyaman bambu adalah salah
           satu kerajinan tangan yang telah lama menjadi bagian dari budaya dan
           kehidupan masyarakat di Dusun Pucung, Desa Pogalan, Kecamatan Pakis,
           Kabupaten Magelang, Jawa Tengah. Anyaman bambu tidak hanya sebagai
@@ -222,7 +223,7 @@ export const dataArticlePucung: DataArticlePucung = {
       <>
         <Text size="lg" className="indent-10">
         <br />
-        Tim KKN PPM UGM 2024 periode 2 melaksanakan kegiatan bertajuk "Sosialisasi Resep MPASI dan Herbal Cegah Stunting" yang bertempat di posyandu desa. Kegiatan ini ditujukan kepada ibu-ibu yang mengikuti posyandu dan memiliki balita. Pada hari pertama, tim KKN turut serta dalam membantu kegiatan posyandu seperti penimbangan berat badan dan pengukuran tinggi badan balita. Setelah itu, tim memberikan pemaparan materi mengenai stunting, yang merupakan kondisi gagal tumbuh pada anak balita akibat kekurangan gizi kronis. Materi ini mencakup penjelasan tentang penyebab, dampak, dan cara pencegahan stunting, serta pentingnya asupan gizi yang baik sejak dini. Tim KKN juga memperkenalkan berbagai resep Makanan Pendamping ASI (MPASI) yang kaya akan nutrisi serta berbagai jenis jamu tradisional yang dapat membantu mencegah stunting, seperti temulawak dan kunyit.  
+        Tim KKN PPM UGM 2024 periode 2 melaksanakan kegiatan bertajuk &quot;Sosialisasi Resep MPASI dan Herbal Cegah Stunting&quot; yang bertempat di posyandu desa. Kegiatan ini ditujukan kepada ibu-ibu yang mengikuti posyandu dan memiliki balita. Pada hari pertama, tim KKN turut serta dalam membantu kegiatan posyandu seperti penimbangan berat badan dan pengukuran tinggi badan balita. Setelah itu, tim memberikan pemaparan materi mengenai stunting, yang merupakan kondisi gagal tumbuh pada anak balita akibat kekurangan gizi kronis. Materi ini mencakup penjelasan tentang penyebab, dampak, dan cara pencegahan stunting, serta pentingnya asupan gizi yang baik sejak dini. Tim KKN juga memperkenalkan berbagai resep Makanan Pendamping ASI (MPASI) yang kaya akan nutrisi serta berbagai jenis jamu tradisional yang dapat membantu mencegah stunting, seperti temulawak dan kunyit.  
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -247,7 +248,7 @@ export const dataArticlePucung: DataArticlePucung = {
       <>
         <Text size="lg" className="indent-10">
         <br />
-        Tim KKN PPM UGM 2024 periode 2 mengadakan kegiatan sosialisasi dan pelatihan bertajuk "Menjaga Kebersihan Lingkungan Sebagai Upaya Menciptakan Lingkungan Bersih Cegah Stunting" yang bertempat di masjid dusun Pucung, Pogalan, Pakis, Magelang. Kegiatan ini diikuti oleh anak-anak TPA dengan tujuan untuk meningkatkan kesadaran akan pentingnya menjaga kebersihan lingkungan sebagai langkah pencegahan stunting.  
+        Tim KKN PPM UGM 2024 periode 2 mengadakan kegiatan sosialisasi dan pelatihan bertajuk &quot;Menjaga Kebersihan Lingkungan Sebagai Upaya Menciptakan Lingkungan Bersih Cegah Stunting&quot; yang bertempat di masjid dusun Pucung, Pogalan, Pakis, Magelang. Kegiatan ini diikuti oleh anak-anak TPA dengan tujuan untuk meningkatkan kesadaran akan pentingnya menjaga kebersihan lingkungan sebagai langkah pencegahan stunting.  
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -255,7 +256,7 @@ export const dataArticlePucung: DataArticlePucung = {
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-        Setelah sesi pemaparan, dilanjutkan dengan kegiatan "Game Memasukkan Sampah ke Tempat yang Sesuai". Dalam permainan ini, anak-anak diajarkan untuk membedakan jenis-jenis sampah dan cara memilahnya dengan benar. Mereka diberikan berbagai jenis sampah tiruan dan diminta untuk memasukkannya ke tempat sampah yang sesuai, seperti sampah organik, anorganik, dan bahan berbahaya. Kegiatan ini tidak hanya mengajarkan pentingnya memilah sampah, tetapi juga melatih mereka untuk bertanggung jawab terhadap lingkungan sejak dini.
+        Setelah sesi pemaparan, dilanjutkan dengan kegiatan &quot;Game Memasukkan Sampah ke Tempat yang Sesuai&quot;. Dalam permainan ini, anak-anak diajarkan untuk membedakan jenis-jenis sampah dan cara memilahnya dengan benar. Mereka diberikan berbagai jenis sampah tiruan dan diminta untuk memasukkannya ke tempat sampah yang sesuai, seperti sampah organik, anorganik, dan bahan berbahaya. Kegiatan ini tidak hanya mengajarkan pentingnya memilah sampah, tetapi juga melatih mereka untuk bertanggung jawab terhadap lingkungan sejak dini.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
@@ -392,7 +393,7 @@ export const dataArticlePucung: DataArticlePucung = {
         <br />
         <Text size="lg" className="indent-10">
         <H2>Hasil dan Manfaat </H2>
-        Program pengontrolan bacaan dan hafalan Al-Qur'an ini memberikan dampak positif yang signifikan. Anak-anak di TPA menunjukkan peningkatan yang signifikan dalam kualitas bacaan dan hafalan mereka. Mereka menjadi lebih percaya diri dalam membaca dan menghafal Al-Qur'an. Selain itu, program ini juga menguatkan ikatan antara mahasiswa KKN dengan masyarakat setempat, serta memperkuat nilai-nilai keagamaan dalam kehidupan sehari-hari. Dengan demikian, proker KKN PPM UGM 2024 ini tidak hanya membantu meningkatkan kemampuan anak-anak dalam membaca dan menghafal Al-Qur'an, tetapi juga memberikan kontribusi nyata dalam pembentukan generasi muda yang berakhlak mulia dan berpengetahuan agama yang kuat.
+        Program pengontrolan bacaan dan hafalan Al-Qur&lsquo;an ini memberikan dampak positif yang signifikan. Anak-anak di TPA menunjukkan peningkatan yang signifikan dalam kualitas bacaan dan hafalan mereka. Mereka menjadi lebih percaya diri dalam membaca dan menghafal Al-Qur&lsquo;an. Selain itu, program ini juga menguatkan ikatan antara mahasiswa KKN dengan masyarakat setempat, serta memperkuat nilai-nilai keagamaan dalam kehidupan sehari-hari. Dengan demikian, proker KKN PPM UGM 2024 ini tidak hanya membantu meningkatkan kemampuan anak-anak dalam membaca dan menghafal Al-Qur&lsquo;an, tetapi juga memberikan kontribusi nyata dalam pembentukan generasi muda yang berakhlak mulia dan berpengetahuan agama yang kuat.
         </Text>
         <br />
       </>
@@ -406,7 +407,7 @@ export const dataArticlePucung: DataArticlePucung = {
       <>
         <Text size="lg" className="indent-10">
         <br />
-        Tim Kuliah Kerja Nyata (KKN) PPM Universitas Gadjah Mada (UGM) 2024 periode 2 melaksanakan program kerja (proker) bertajuk "Pendampingan Hafalan Quran Anak-anak TPA" di Dusun Pucung, Desa Pogalan, Kecamatan Pakis, Kabupaten Magelang. Program ini ditujukan untuk mendukung dan meningkatkan kualitas hafalan Al-Quran anak-anak di Taman Pendidikan Al-Quran (TPA) setempat.
+        Tim Kuliah Kerja Nyata (KKN) PPM Universitas Gadjah Mada (UGM) 2024 periode 2 melaksanakan program kerja (proker) bertajuk &quot;Pendampingan Hafalan Quran Anak-anak TPA&quot; di Dusun Pucung, Desa Pogalan, Kecamatan Pakis, Kabupaten Magelang. Program ini ditujukan untuk mendukung dan meningkatkan kualitas hafalan Al-Quran anak-anak di Taman Pendidikan Al-Quran (TPA) setempat.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
