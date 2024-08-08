@@ -24,9 +24,9 @@ export function Semampiran() {
         image="/semampiran/hero.jpg"
         title={
           <>
-            Ketundan 1
+            Sub Unit Ketundan 1
             <br />
-            Semampiran
+            Dusun Semampiran
           </>
         }
         description="Sub unit Ketundan 1 (Dusun Semampiran) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."

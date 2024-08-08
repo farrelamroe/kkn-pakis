@@ -3,8 +3,10 @@ import Head from "next/head";
 
 export async function getStaticPaths() {
   const routes = [
-    "pertemuan-dengan-kepala-dusun",
-    "diskusi-dengan-kepala-dusun",
+    "pembuatan-peta",
+    "prototipe-instalasi",
+    "desain-retaining",
+    "pelatihan-anbk"
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

@@ -2,7 +2,21 @@ import { ArticlePucung, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {
-  const routes = ["pesona-pucung"];
+  const routes = [
+    "pesona-pucung",
+    "manajemen-keuangan",
+    "proker-inventarisasi",
+    "sosialisasi-poc",
+    "sosialisasi-microgreen",
+    "sosialisasi-mpasi",
+    "kebersihan",
+    "retaining-wall",
+    "pembuatan-rab-retaining",
+    "pendampingan-hafalan",
+    "pendampingan-tpa",
+    "posyandu",
+    "pencegahan-stunting"
+  ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
   });
