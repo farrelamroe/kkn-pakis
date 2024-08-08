@@ -35,7 +35,7 @@ export function Saintek() {
         <Container className="mt-[101px] font-jakarta">
           <H1 className="font-bold">Let’s See Our Klaster Saintek!</H1>
           <H3 className="pt-[24px]">
-            Berikut adalah program kerja yang telah dilaksanakan oleh klaster
+            Berikut adalah program kerja unggulan yang telah dilaksanakan oleh klaster
             saintek
           </H3>
 
