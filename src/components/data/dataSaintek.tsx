@@ -1,12 +1,22 @@
 export const dataSaintek = [
   {
-    image: "/hero.png",
-    title: "Pertemuan dengan Kepala Dusun",
-    href: "pertemuan-dengan-kepala-dusun",
+    image: "/saintek/pembuatan-peta.jpeg",
+    title: "Pembuatan Peta Sebaran Hewan Ternak",
+    href: "pembuatan-peta",
   },
   {
-    image: "/hero.png",
-    title: "Diskusi dengan Kepala Dusun",
-    href: "diskusi-dengan-kepala-dusun",
+    image: "/saintek/prototipe-instalasi.jpeg",
+    title: "Prototipe Pengolahan Limbah Air",
+    href: "prototipe-instalasi",
+  },
+  {
+    image: "/saintek/desain-retaining.jpeg",
+    title: "Design Retaining Wall",
+    href: "desain-retaining",
+  },
+  {
+    image: "/saintek/pelatihan-anbk.jpeg",
+    title: "Pelatihan Penggunaan Chromebook",
+    href: "pelatihan-anbk",
   },
 ];
