@@ -122,7 +122,7 @@ export function Homepage() {
                       data-aos="fade-right"
                       data-aos-delay="500"
                     >
-                      <Image
+                      <img
                         src={image}
                         width={1000}
                         height={1000}
@@ -145,7 +145,7 @@ export function Homepage() {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <Image
+                              <img
                                 src="/github-logo.png"
                                 width={1000}
                                 height={1000}
@@ -163,7 +163,7 @@ export function Homepage() {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <Image
+                              <img
                                 src="/linkedin-logo.png"
                                 width={1000}
                                 height={1000}
