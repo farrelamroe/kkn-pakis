@@ -206,8 +206,7 @@ export const dataArticleAgro: DataArticleAgro = {
   "gerakan-minum-susu": {
     image: "/agro/minum-susu.jpeg",
     location: "SDN Pogalan 3, Kelurahan Pogalan",
-    title:
-      "Sosialisasi Penanaman Tanaman Refugia untuk Pengendalian Organisme Pengganggu Tanaman",
+    title: "Gerakan Minum Susu di SD Negeri Pogalan 3",
     text: (
       <>
         <Text size="lg" color="secondary" className="indent-10">
