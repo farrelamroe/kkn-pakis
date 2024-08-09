@@ -14,7 +14,7 @@ export async function getStaticPaths() {
     "edukasi-mpasi",
     "pembuatan-pupuk-organik-cair",
     "analisis-destinasi-wisata",
-    "desain-baju-gerdu"
+    "desain-baju-gerdu",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

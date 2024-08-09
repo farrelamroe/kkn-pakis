@@ -12,6 +12,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { dataDeveloper } from "../data/dataDeveloper";
 
 export function Homepage() {
   useEffect(() => {
@@ -35,7 +36,7 @@ export function Homepage() {
               width={1000}
               height={1000}
               alt="Peta pakis"
-              className="h-full lg:max-w-[400px] xl:max-w-[615px]"
+              className="h-full min-w-[250px] lg:max-w-[400px] xl:max-w-[615px]"
               data-aos="fade-right"
               data-aos-delay="500"
             />
@@ -74,7 +75,7 @@ export function Homepage() {
         >
           <div className="relative flex h-full flex-col items-center justify-between gap-[70px] pb-[65px] pt-[103px] lg:flex-row">
             <div
-              className="relative max-h-[350px] min-h-[300px] w-[390px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
+              className="relative h-full max-h-[350px] w-full min-w-[250px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
               data-aos="fade-right"
               data-aos-delay="500"
             >
@@ -83,7 +84,7 @@ export function Homepage() {
                 width={1000}
                 height={1000}
                 alt="Pak Dimas"
-                className="relative lg:-bottom-20 lg:h-[390px] xl:bottom-0"
+                className="relative lg:-bottom-0 lg:h-[390px] xl:bottom-0"
               />
             </div>
             <div
@@ -91,6 +92,7 @@ export function Homepage() {
               data-aos="fade-left"
               data-aos-delay="500"
             >
+              <P className="font-jakarta text-[48px] font-bold leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
               <P className="font-jakarta text-[48px] font-bold leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
                 Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
               </P>
@@ -107,217 +109,80 @@ export function Homepage() {
         <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
           Meet Our Developer
         </H1>
-        <div className="my-12 grid grid-cols-1 items-center gap-[24px] lg:grid-cols-2 xl:grid-cols-4">
-          {/* tasya*/}
-          <div
-            className="relative flex h-full max-h-[640px] w-full min-w-[250px] max-w-[300px] flex-col justify-center rounded-[24px] bg-red pt-12 align-middle"
-            data-aos="zoom-in"
-          >
-            {/* orang */}
-            <img
-              src="/tasya.png"
-              width={1000}
-              height={1000}
-              alt="Tasya"
-              className="absolute left-1/2 z-10 mt-[50px] -translate-x-1/2 -translate-y-1/2 transform lg:h-[295px] lg:w-[205px]"
-            />
-            <div className="flex flex-col items-center">
-              <div className="relative max-h-[240px] min-h-[220px] w-[205px] overflow-hidden rounded-b-[36px] rounded-t-[195px] border-[8px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"></div>
-              {/* Nama */}
-              <div className="my-2 flex flex-col">
-                <P className="text-center font-jakarta text-[20px] font-bold leading-[-1%] text-white lg:text-[28px]">
-                  Saadah Mardatillah
-                </P>
-                <P className="text-center font-jakarta text-[24px] leading-[1.3] text-white lg:text-[20px]">
-                  Project Manager, Frontend Developer
-                </P>
-              </div>
-              {/* Sosmed */}
-              <div className="mt-1 flex flex-row gap-1">
-                <a
-                  href="https://github.com/saadahmardatillah"
-                  target="_blank"
-                  rel="noopener noreferrer"
+        <div className="my-12 grid grid-cols-1 items-center gap-[24px] sm:grid-cols-2 xl:grid-cols-4">
+          {dataDeveloper.map(({ name, image, position, github, linkedin }) => {
+            return (
+              <>
+                <div
+                  className="h-full max-h-[525px] w-full max-w-[300px] rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
+                  data-aos="zoom-in"
                 >
-                  <img
-                    src="/github-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Github"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/saadahmardatillah/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/linkedin-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Linkedin"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* farel */}
-          <div
-            className="relative flex h-[480px] w-full min-w-[250px] max-w-[300px] flex-col justify-center rounded-[24px] bg-red pt-12 align-middle"
-            data-aos="zoom-in"
-          >
-            {/* orang */}
-            <img
-              src="/farel.png"
-              width={1000}
-              height={1000}
-              alt="Farel"
-              className="absolute left-1/2 z-10 mt-[50px] -translate-x-1/2 -translate-y-1/2 transform lg:h-[295px] lg:w-[205px]"
-            />
-            <div className="flex flex-col items-center">
-              <div className="relative max-h-[240px] min-h-[220px] w-[205px] overflow-hidden rounded-b-[36px] rounded-t-[195px] border-[8px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"></div>
-              {/* Nama */}
-              <div className="my-2 flex flex-col">
-                <P className="text-center font-jakarta text-[20px] font-bold leading-[-1%] text-white lg:text-[28px]">
-                  Farrel Amroe Azhari
-                </P>
-                <P className="text-center font-jakarta text-[24px] leading-[1.3] text-white lg:text-[20px]">
-                  Frontend Developer, UI/UX Designer
-                </P>
-              </div>
-              {/* Sosmed */}
-              <div className="mt-1 flex flex-row gap-1">
-                <a
-                  href="https://github.com/farrelamroe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/github-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Github"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/farrel-amroe-azhari-8b14b5217/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/linkedin-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Linkedin"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* zaid */}
-          <div
-            className="relative flex h-[480px] w-full min-w-[250px] max-w-[300px] flex-col justify-center rounded-[24px] bg-red pt-12 align-middle"
-            data-aos="zoom-in"
-          >
-            {/* orang */}
-            <img
-              src="/zaid.png"
-              width={1000}
-              height={1000}
-              alt="Zaid"
-              className="absolute left-1/2 z-10 mt-[50px] -translate-x-1/2 -translate-y-1/2 transform lg:h-[295px] lg:w-[205px]"
-            />
-            <div className="flex flex-col items-center">
-              <div className="relative max-h-[240px] min-h-[220px] w-[205px] overflow-hidden rounded-b-[36px] rounded-t-[195px] border-[8px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"></div>
-              {/* Nama */}
-              <div className="my-2 flex flex-col">
-                <P className="text-center font-jakarta text-[20px] font-bold leading-[-1%] text-white lg:text-[28px]">
-                  Faris Zaidan Nafis
-                </P>
-                <P className="text-center font-jakarta text-[24px] leading-[1.3] text-white lg:text-[20px]">
-                  UI/UX Designer, Frontend Developer
-                </P>
-              </div>
-              {/* Sosmed */}
-              <div className="mt-1 flex flex-row gap-1">
-                <a
-                  href="https://github.com/farisznafis"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/github-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Github"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/farisznafis/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/linkedin-logo.png"
-                    width={1000}
-                    height={1000}
-                    alt="Logo Linkedin"
-                    className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* lase */}
-          <div
-            className="relative flex h-[480px] w-full min-w-[250px] max-w-[300px] flex-col justify-center rounded-[24px] bg-red pt-12 align-middle"
-            data-aos="zoom-in"
-          >
-            {/* orang */}
-            <img
-              src="/lase.png"
-              width={1000}
-              height={1000}
-              alt="Tasya"
-              className="absolute left-1/2 z-10 mt-[50px] -translate-x-1/2 -translate-y-1/2 transform lg:h-[295px] lg:w-[205px]"
-            />
-            <div className="flex flex-col items-center">
-              <div className="relative max-h-[240px] min-h-[220px] w-[205px] overflow-hidden rounded-b-[36px] rounded-t-[195px] border-[8px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"></div>
-              {/* Nama */}
-              <div className="my-2 flex flex-col">
-                <P className="text-center font-jakarta text-[20px] font-bold leading-[-1%] text-white lg:text-[28px]">
-                  Gavriel F. Lase
-                </P>
-                <P className="text-center font-jakarta text-[24px] leading-[1.3] text-white lg:text-[20px]">
-                  UX Writer
-                  <br />
-                  <br />
-                </P>
-              </div>
-              {/* Sosmed */}
-              <div className="mt-1 flex flex-row gap-1">
-                <img
-                  src="/github-logo.png"
-                  width={1000}
-                  height={1000}
-                  alt="Logo Github"
-                  className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                />
-                <img
-                  src="/linkedin-logo.png"
-                  width={1000}
-                  height={1000}
-                  alt="Logo Linkedin"
-                  className="relative lg:h-[40px] lg:w-[40px] xl:bottom-0"
-                />
-              </div>
-            </div>
-          </div>
+                  <div className="flex flex-col items-center justify-between">
+                    <div
+                      className="relative max-h-[220] w-full max-w-[205px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
+                      data-aos="fade-right"
+                      data-aos-delay="500"
+                    >
+                      <Image
+                        src={image}
+                        width={1000}
+                        height={1000}
+                        alt="Foto Developer"
+                        className="relative -bottom-[40px] max-h-[220px] object-cover lg:bottom-0"
+                      />
+                    </div>
+                    <div className="my-2 flex flex-col items-center">
+                      <P className="h-[80px] text-center font-jakarta text-[20px] font-bold leading-[-1%] text-white lg:text-[28px]">
+                        {name}
+                      </P>
+                      <div className="flex flex-col items-center justify-between gap-y-[20px]">
+                        <P className="text-center font-jakarta text-[24px] leading-[1.3] text-white lg:text-[20px]">
+                          {position}
+                        </P>
+                        <div className="mt-1 flex flex-row gap-1 pb-[24px]">
+                          {github !== null ? (
+                            <a
+                              href={github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Image
+                                src="/github-logo.png"
+                                width={1000}
+                                height={1000}
+                                alt="Logo Github"
+                                className="relative h-[40px] w-[40px] duration-300 hover:scale-110 lg:h-[40px] lg:w-[40px] xl:bottom-0"
+                              />
+                            </a>
+                          ) : (
+                            <></>
+                          )}
+
+                          {linkedin !== null ? (
+                            <a
+                              href={linkedin}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Image
+                                src="/linkedin-logo.png"
+                                width={1000}
+                                height={1000}
+                                alt="Logo Linkedin"
+                                className="relative h-[40px] w-[40px] duration-300 hover:scale-110 lg:h-[40px] lg:w-[40px] xl:bottom-0"
+                              />
+                            </a>
+                          ) : (
+                            <></>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            );
+          })}
         </div>
       </Container>
     </>

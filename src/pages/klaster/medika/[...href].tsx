@@ -6,7 +6,7 @@ export async function getStaticPaths() {
     "farmasi-cilik",
     "isi-piringku",
     "jamu-temulawak",
-    "pembuatan-pmt"
+    "pembuatan-pmt",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

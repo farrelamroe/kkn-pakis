@@ -6,7 +6,7 @@ export async function getStaticPaths() {
     "pembuatan-peta",
     "prototipe-instalasi",
     "desain-retaining",
-    "pelatihan-anbk"
+    "pelatihan-anbk",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

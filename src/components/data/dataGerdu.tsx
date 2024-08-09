@@ -58,5 +58,5 @@ export const dataGerdu = [
     image: "/gerdu/desain-baju-gerdu.png",
     title: "Pembuatan Desain Baju Masyarakat Gerdu",
     href: "desain-baju-gerdu",
-  }
+  },
 ];
