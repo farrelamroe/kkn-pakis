@@ -7,7 +7,7 @@ export function Card(props: any) {
   return (
     <>
       <div className="w-full rounded-[14px] border bg-primary duration-300 hover:scale-110 hover:cursor-pointer lg:h-[324px] lg:max-w-[305px] xl:h-[288px]">
-        <Image
+        <img
           src={image}
           alt="image"
           width={305}

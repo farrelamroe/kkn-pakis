@@ -12,7 +12,7 @@ export function ArticlePucung({ href }: any) {
   return (
     <>
       <ArrowBack />
-      <Image
+      <img
         src={data.image}
         alt="image"
         height={312}

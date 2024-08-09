@@ -10,7 +10,7 @@ export default function NotFounf() {
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <div className="flex h-screen flex-col items-center justify-center gap-[50px] text-center lg:flex-row">
-        <Image src="/logo-pakis.png" alt="image" width={500} height={500} />
+        <img src="/logo-pakis.png" alt="image" width={500} height={500} />
         <div>
           <H1 className="font-jakarta">Halaman tidak ditemukan!</H1>
           <Button

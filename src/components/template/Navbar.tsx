@@ -33,7 +33,7 @@ export function Navbar() {
       >
         <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-md">
           <Link href="/">
-            <Image
+            <img
               src="/logo-pakis-text.png"
               width={150}
               height={100}
