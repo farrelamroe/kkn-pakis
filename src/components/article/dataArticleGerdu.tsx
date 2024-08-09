@@ -122,9 +122,10 @@ export const dataArticleGerdu: DataArticleGerdu = {
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
           <div>
             <Text size="lg" color="secondary" className="indent-10">
-            Untuk pertanian, dilakukan wawancara kepada Pak Hafid sebagai Penyuluh Pertanian Pertama di Desa Pogalan.
-            Untuk peternakan, dilakukan wawancara kepada Pak Madiyono sebagai Kepala Desa Pogalan. Pertanyaan yang
-            diberikan adalah sebagai berikut:
+              Untuk pertanian, dilakukan wawancara kepada Pak Hafid sebagai
+              Penyuluh Pertanian Pertama di Desa Pogalan. Untuk peternakan,
+              dilakukan wawancara kepada Pak Madiyono sebagai Kepala Desa
+              Pogalan. Pertanyaan yang diberikan adalah sebagai berikut:
             </Text>
             <br />
             <ul className="custom-list-disc">
@@ -135,7 +136,6 @@ export const dataArticleGerdu: DataArticleGerdu = {
               <li>Program dan Kegiatan Pertanian/Peternakan</li>
               <li>Harapan Masa Depan Pertanian/Peternakan</li>
             </ul>
-          
           </div>
           <Image
             src="/gerdu/video-peternakan.png"
@@ -147,11 +147,14 @@ export const dataArticleGerdu: DataArticleGerdu = {
         </div>
         <br />
         <Text size="lg" color="secondary" className="indent-10">
-          Selain video wawancara, ditambah juga cuplikan dari berbagai kegiatan di Desa Pogalan sebagai informasi
-          tambahan. Kegiatan ini mencakup kegiatan sehari-hari petani dan peternak yang bekerja di sawah dan ladang,
-          kegiatan sehari-hari warga Dusun di Pogalan seperti Hadroh, TPA, Kegiatan Belajar Mengajar (KBM) di sekolah,
-          dan lainnya. Keindahan alam Desa Pogalan yang memukau, seperti panorama pegunungan yang hijau, keanekaragaman
-          flora dan fauna juga ditampilkan pada video. Ini semua diharapkan dapat menarik minat penonton tidak hanya
+          Selain video wawancara, ditambah juga cuplikan dari berbagai kegiatan
+          di Desa Pogalan sebagai informasi tambahan. Kegiatan ini mencakup
+          kegiatan sehari-hari petani dan peternak yang bekerja di sawah dan
+          ladang, kegiatan sehari-hari warga Dusun di Pogalan seperti Hadroh,
+          TPA, Kegiatan Belajar Mengajar (KBM) di sekolah, dan lainnya.
+          Keindahan alam Desa Pogalan yang memukau, seperti panorama pegunungan
+          yang hijau, keanekaragaman flora dan fauna juga ditampilkan pada
+          video. Ini semua diharapkan dapat menarik minat penonton tidak hanya
           dari dalam negeri tetapi juga dari mancanegara.
         </Text>
         <br />
@@ -813,43 +816,49 @@ export const dataArticleGerdu: DataArticleGerdu = {
 
   "desain-baju-gerdu": {
     image: "/gerdu/desain-baju-cover.png",
-    location: "Dusun Kragilan, Kelurahan Pogalan dan Rumah Pak Gendut, Dusun Gerdu",
-    title:
-      "Sosialisasi Penggunaan Canva dan Pemanfaatan AI",
+    location:
+      "Dusun Kragilan, Kelurahan Pogalan dan Rumah Pak Gendut, Dusun Gerdu",
+    title: "Sosialisasi Penggunaan Canva dan Pemanfaatan AI",
     text: (
       <>
         <Text size="lg" color="secondary" className="indent-10">
-        Dalam era digital saat ini, teknologi telah membuka banyak kemungkinan baru,
-        terutama dalam bidang desain grafis dan pemanfaatan kecerdasan buatan (AI).
-        Dalam upaya untuk mempromosikan salah satu wisata di Dusun Kragilan. yaitu Top
-        Selfie secara lebih efektif, dilakukan sosialisasi yang ditujukan khusus untuk
-        para pengurus wisata di lokasi tersebut. Proker ini bertujuan untuk membekali
-        para pengurus dengan keterampilan desain grafis menggunakan Canva serta
-        pemanfaatan kecerdasan buatan (AI) untuk meningkatkan promosi dan visibilitas
-        Top Selfie Dusun Kragilan.
+          Dalam era digital saat ini, teknologi telah membuka banyak kemungkinan
+          baru, terutama dalam bidang desain grafis dan pemanfaatan kecerdasan
+          buatan (AI). Dalam upaya untuk mempromosikan salah satu wisata di
+          Dusun Kragilan. yaitu Top Selfie secara lebih efektif, dilakukan
+          sosialisasi yang ditujukan khusus untuk para pengurus wisata di lokasi
+          tersebut. Proker ini bertujuan untuk membekali para pengurus dengan
+          keterampilan desain grafis menggunakan Canva serta pemanfaatan
+          kecerdasan buatan (AI) untuk meningkatkan promosi dan visibilitas Top
+          Selfie Dusun Kragilan.
         </Text>
         <br />
         <div className="flex flex-col items-center justify-between gap-x-[64px] gap-y-[32px] lg:flex-row">
           <div>
             <Text size="lg" color="secondary" className="indent-10">
-            Canva, platform desain grafis yang mudah digunakan, telah menjadi alat yang sangat
-            populer di kalangan profesional maupun amatir. Dengan Canva, siapa saja dapat
-            membuat desain yang menarik tanpa memerlukan keahlian desain yang mendalam.
-            Sosialisasi penggunaan Canva ini bertujuan untuk memberikan pemahaman yang lebih baik
-            tentang fitur-fitur yang tersedia, seperti template desain, alat pengeditan gambar,
-            dan integrasi media sosial. Kami berharap bahwa dengan pengetahuan ini, peserta akan
-            dapat memanfaatkan Canva untuk membuat materi promosi, poster, infografis, dan berbagai
-            materi visual lainnya dengan lebih mudah dan efektif.
+              Canva, platform desain grafis yang mudah digunakan, telah menjadi
+              alat yang sangat populer di kalangan profesional maupun amatir.
+              Dengan Canva, siapa saja dapat membuat desain yang menarik tanpa
+              memerlukan keahlian desain yang mendalam. Sosialisasi penggunaan
+              Canva ini bertujuan untuk memberikan pemahaman yang lebih baik
+              tentang fitur-fitur yang tersedia, seperti template desain, alat
+              pengeditan gambar, dan integrasi media sosial. Kami berharap bahwa
+              dengan pengetahuan ini, peserta akan dapat memanfaatkan Canva
+              untuk membuat materi promosi, poster, infografis, dan berbagai
+              materi visual lainnya dengan lebih mudah dan efektif.
             </Text>
             <br />
             <Text size="lg" color="secondary" className="indent-10">
-            Selain itu, pemanfaatan AI dalam desain dan kreativitas juga merupakan aspek penting dari
-            proker ini. Kecerdasan buatan dapat membantu mempercepat proses desain, meningkatkan akurasi,
-            dan bahkan memberikan ide-ide inovatif yang mungkin tidak terpikirkan sebelumnya. Dengan
-            menggunakan AI, kita dapat mengoptimalkan berbagai proses kreatif, mulai dari pengeditan
-            foto hingga pembuatan desain yang disesuaikan dengan preferensi pengguna. Sosialisasi ini
-            akan mengajarkan peserta tentang alat-alat AI yang dapat diintegrasikan dengan Canva dan
-            bagaimana cara memaksimalkan teknologi ini untuk meningkatkan hasil desain mereka.
+              Selain itu, pemanfaatan AI dalam desain dan kreativitas juga
+              merupakan aspek penting dari proker ini. Kecerdasan buatan dapat
+              membantu mempercepat proses desain, meningkatkan akurasi, dan
+              bahkan memberikan ide-ide inovatif yang mungkin tidak terpikirkan
+              sebelumnya. Dengan menggunakan AI, kita dapat mengoptimalkan
+              berbagai proses kreatif, mulai dari pengeditan foto hingga
+              pembuatan desain yang disesuaikan dengan preferensi pengguna.
+              Sosialisasi ini akan mengajarkan peserta tentang alat-alat AI yang
+              dapat diintegrasikan dengan Canva dan bagaimana cara memaksimalkan
+              teknologi ini untuk meningkatkan hasil desain mereka.
             </Text>
           </div>
           <Image
@@ -871,26 +880,28 @@ export const dataArticleGerdu: DataArticleGerdu = {
           />
           <div>
             <Text size="lg" className="indent-10">
-              Terdapat proker tambahan dari permintaan pemuda Dusun Gerdu, yaitu membuat desain baju
-              warga Dusun. Baju ini nantinya akan digunakan setiap kegiatan warga. Pembuatan desain
-              baju dilaksanakan di rumah Ketua Pemuda Gerdu, Pak Gendut, pada jam 8 malam bersama
-              beberapa pemuda. Pembuatan baju ini tidak hanya akan memberikan produk yang diinginkan
-              oleh warga tetapi juga menjadi contoh nyata bagaimana teknologi dan kreativitas dapat
-              digabungkan untuk memenuhi kebutuhan pasar.
-              </Text>
-              <br />
-              <Text size="lg" className="indent-10">
-              Dengan inisiatif ini, diharapkan dapat memberdayakan masyarakat untuk lebih kreatif dan
-              inovatif dalam berbagai bidang, serta memanfaatkan teknologi modern untuk mencapai hasil
-              yang lebih baik. Sosialisasi penggunaan Canva dan AI adalah langkah penting menuju masa
-              depan yang lebih cerdas dan terhubung, di mana setiap individu dapat menjadi bagian dari
-              perubahan digital yang positif.
+              Terdapat proker tambahan dari permintaan pemuda Dusun Gerdu, yaitu
+              membuat desain baju warga Dusun. Baju ini nantinya akan digunakan
+              setiap kegiatan warga. Pembuatan desain baju dilaksanakan di rumah
+              Ketua Pemuda Gerdu, Pak Gendut, pada jam 8 malam bersama beberapa
+              pemuda. Pembuatan baju ini tidak hanya akan memberikan produk yang
+              diinginkan oleh warga tetapi juga menjadi contoh nyata bagaimana
+              teknologi dan kreativitas dapat digabungkan untuk memenuhi
+              kebutuhan pasar.
+            </Text>
+            <br />
+            <Text size="lg" className="indent-10">
+              Dengan inisiatif ini, diharapkan dapat memberdayakan masyarakat
+              untuk lebih kreatif dan inovatif dalam berbagai bidang, serta
+              memanfaatkan teknologi modern untuk mencapai hasil yang lebih
+              baik. Sosialisasi penggunaan Canva dan AI adalah langkah penting
+              menuju masa depan yang lebih cerdas dan terhubung, di mana setiap
+              individu dapat menjadi bagian dari perubahan digital yang positif.
             </Text>
           </div>
         </div>
-        
+
         <br />
-        
       </>
     ),
   },

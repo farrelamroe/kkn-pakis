@@ -17,8 +17,7 @@ export async function getStaticPaths() {
     "pmt-balita",
     "materi",
     "sosialisasi-google",
-    "video-profil"
-  
+    "video-profil",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

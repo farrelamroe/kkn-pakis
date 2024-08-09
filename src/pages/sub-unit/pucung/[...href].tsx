@@ -15,7 +15,7 @@ export async function getStaticPaths() {
     "pendampingan-hafalan",
     "pendampingan-tpa",
     "posyandu",
-    "pencegahan-stunting"
+    "pencegahan-stunting",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
