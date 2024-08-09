@@ -93,7 +93,6 @@ export function Homepage() {
               data-aos-delay="500"
             >
               <P className="font-jakarta text-[48px] font-bold leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
-              <P className="font-jakarta text-[48px] font-bold leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
                 Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
               </P>
               <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
