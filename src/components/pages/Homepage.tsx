@@ -3,16 +3,15 @@ import {
   MainHero,
   H1,
   H5,
-  H4,
   P,
   dataBeranda,
+  dataDeveloper,
   Counter,
 } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { dataDeveloper } from "../data/dataDeveloper";
 
 export function Homepage() {
   useEffect(() => {
@@ -25,12 +24,14 @@ export function Homepage() {
         title={<>TIM KKN MELUKIS PAKIS 2024</>}
         description="Kecamatan Pakis terletak di Kabupaten Magelang, Jawa Tengah, Indonesia. Kecamatan ini dikenal dengan keindahan alamnya, yang mencakup area pegunungan dan lahan pertanian yang subur. Pakis memiliki berbagai potensi wisata alam dan budaya, termasuk situs bersejarah dan pemandangan alam yang menarik. Sebagai salah satu daerah pedesaan, Pakis juga berfokus pada pertanian, dengan tanaman utama seperti padi dan sayuran. Kecamatan ini berperan penting dalam mendukung ekonomi lokal melalui kegiatan pertanian dan pariwisata. Pakis merupakan bagian dari Magelang yang kaya akan budaya dan tradisi lokal."
       />
+
+      {/* Tentang Pakis */}
       <Container>
         <div
           className="relative my-[50px] h-full rounded-[54px] bg-secondary"
           data-aos="zoom-in"
         >
-          <div className="relative mx-[100px] flex flex-col items-center justify-between gap-[40px] py-[65px] lg:flex-row">
+          <div className="relative mx-[100px] flex flex-col items-center justify-between gap-x-[24px] gap-y-[40px] py-[65px] lg:flex-row">
             <Image
               src="/peta-pakis.png"
               width={1000}
@@ -45,7 +46,7 @@ export function Homepage() {
                 return (
                   <>
                     <div
-                      className="flex w-full flex-row items-center gap-x-[9px] rounded-[16px] bg-red px-[35px] py-[33px]"
+                      className="flex w-full flex-row items-center gap-x-[9px] rounded-[16px] bg-red px-[20px] py-[33px] lg:px-[35px]"
                       key={i}
                       data-aos="fade-left"
                     >
@@ -68,14 +69,16 @@ export function Homepage() {
           </div>
         </div>
       </Container>
+
+      {/* Pak Dimas */}
       <Container>
         <div
           className="relative my-[50px] h-full rounded-[54px] bg-red px-[100px]"
           data-aos="zoom-in"
         >
-          <div className="relative flex h-full flex-col items-center justify-between gap-[70px] pb-[65px] pt-[103px] lg:flex-row">
+          <div className="relative flex h-full flex-col items-center justify-between gap-[70px] py-[65px] lg:flex-row">
             <div
-              className="relative h-full max-h-[350px] w-full min-w-[250px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
+              className="relative h-full max-h-[350px] w-full min-w-[200px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
               data-aos="fade-right"
               data-aos-delay="500"
             >
@@ -92,7 +95,7 @@ export function Homepage() {
               data-aos="fade-left"
               data-aos-delay="500"
             >
-              <P className="font-jakarta text-[48px] font-bold leading-[57.6px] text-white lg:font-[52px] lg:leading-[67.6px]">
+              <P className="font-jakarta text-[36px] font-bold leading-[50px] text-white lg:font-[52px] lg:leading-[67.6px]">
                 Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
               </P>
               <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
@@ -108,12 +111,12 @@ export function Homepage() {
         <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
           Meet Our Developer
         </H1>
-        <div className="my-12 grid grid-cols-1 items-center gap-[24px] sm:grid-cols-2 xl:grid-cols-4">
+        <div className="my-12 flex flex-row flex-wrap items-center justify-center gap-[24px]">
           {dataDeveloper.map(({ name, image, position, github, linkedin }) => {
             return (
               <>
                 <div
-                  className="h-full max-h-[525px] w-full max-w-[300px] rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
+                  className="h-[525px] w-full max-w-[300px] rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
                   data-aos="zoom-in"
                 >
                   <div className="flex flex-col items-center justify-between">

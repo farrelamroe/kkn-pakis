@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { H5 } from "@/components";
 
 interface CounterProps {
   end: number;
