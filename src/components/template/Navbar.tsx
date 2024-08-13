@@ -55,48 +55,12 @@ export function Navbar() {
             })}
           </div>
 
-          <svg
-            width="40"
-            height="40"
-            viewBox="0 0 40 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            onClick={toggle}
-            className="lg:hidden"
-          >
-            <rect
-              width={active ? "45" : "40"}
-              height="5"
-              fill="#252644"
-              className={
-                active
-                  ? "translate-x-[10%] translate-y-[0%] rotate-45 duration-300"
-                  : "rotate-0 duration-300"
-              }
-            />
-            <rect
-              y="16"
-              width="40"
-              height="5"
-              fill="#252644"
-              className={
-                active
-                  ? "translate-x-[100%] duration-300"
-                  : "rotate-0 duration-300"
-              }
-            />
-            <rect
-              y="32"
-              width={active ? "45" : "40"}
-              height="5"
-              fill="#252644"
-              className={
-                active
-                  ? "translate-x-[-50%] translate-y-[25%] -rotate-45 duration-300"
-                  : "rotate-0 duration-300"
-              }
-            />
-          </svg>
+          <label className="burger lg:hidden" htmlFor="burger">
+            <input type="checkbox" id="burger" onClick={toggle} />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
       </div>
 

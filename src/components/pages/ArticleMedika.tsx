@@ -1,14 +1,34 @@
-import { ArrowBack, H1, dataArticleMedika } from "@/components";
+import { ArrowBack, H1, Loader, dataArticleMedika } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function ArticleMedika({ href }: any) {
   const data = dataArticleMedika[href];
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer); // Cle
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
-  });
+  }, []);
+
+  if (loading) {
+    return (
+      <>
+        <div className="block">
+          <Loader />
+        </div>
+      </>
+    );
+  }
   return (
     <>
       <ArrowBack />

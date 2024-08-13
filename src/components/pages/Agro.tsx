@@ -6,9 +6,36 @@ import {
   Search,
   SubunitKlasterHero,
   dataAgro,
+  Loader,
 } from "@/components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useState, useEffect } from "react";
 
 export function Agro() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer); // Cle
+  }, []);
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
+  if (loading) {
+    return (
+      <>
+        <div className="block">
+          <Loader />
+        </div>
+      </>
+    );
+  }
   return (
     <>
       <div className="ml-[50px]">

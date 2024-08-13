@@ -3,18 +3,39 @@ import {
   Container,
   H1,
   H3,
+  Loader,
   Search,
   SubunitKlasterHero,
   dataSaintek,
 } from "@/components";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function Saintek() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer); // Cle
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  if (loading) {
+    return (
+      <>
+        <div className="block">
+          <Loader />
+        </div>
+      </>
+    );
+  }
   return (
     <>
       <div className="ml-[50px]">
