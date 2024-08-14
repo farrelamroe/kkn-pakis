@@ -9,3 +9,5 @@ export * from "./MainSubunitKlasterHero";
 export * from "./MainHero";
 export * from "./Navbar";
 export * from "./Counter";
+export * from "./Loader";
+export * from "./ThemeContext";

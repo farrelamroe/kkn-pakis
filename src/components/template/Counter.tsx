@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface CounterProps {
   end: number;
@@ -7,13 +7,16 @@ interface CounterProps {
 
 export function Counter({ end, duration }: CounterProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const [hasRun, setHasRun] = useState(false);
 
   useEffect(() => {
-    const node = ref.current; // Capture the current ref value
+    const node = ref.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting && node) {
+          if (entry.isIntersecting && node && !hasRun) {
+            setHasRun(true); // Mark the animation as having run
             let start = 0;
             const endVal = parseInt(end.toString(), 10);
             const increment = endVal / ((duration / 1000) * 60);
@@ -28,8 +31,6 @@ export function Counter({ end, duration }: CounterProps) {
                 node.innerText = Math.floor(current).toString();
               }
             }, 16); // roughly 60fps
-          } else if (node) {
-            node.innerText = "0";
           }
         });
       },
@@ -46,7 +47,7 @@ export function Counter({ end, duration }: CounterProps) {
         observer.unobserve(node);
       }
     };
-  }, [end, duration]);
+  }, [end, duration, hasRun]);
 
   return <div ref={ref}>0</div>;
 }

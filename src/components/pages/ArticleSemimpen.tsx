@@ -1,14 +1,34 @@
-import { ArrowBack, H1, dataArticleSemimpen } from "@/components";
+import { ArrowBack, H1, Loader, dataArticleSemimpen } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function ArticleSemimpen({ href }: any) {
   const data = dataArticleSemimpen[href];
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer); // Cle
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
-  });
+  }, []);
+
+  if (loading) {
+    return (
+      <>
+        <div className="block">
+          <Loader />
+        </div>
+      </>
+    );
+  }
   return (
     <>
       <ArrowBack />
@@ -28,10 +48,10 @@ export function ArticleSemimpen({ href }: any) {
         <li>{data.location}</li>
       </ul>
       <div data-aos="fade-up" data-aos-delay="600">
-        <H1 className="mt-[15px] font-alatsi text-secondary">{data.title}</H1>
+        <H1 className="mt-[15px] font-alatsi">{data.title}</H1>
       </div>
       <div
-        className="mb-[126px] mt-[30px] text-justify font-jakarta text-secondary"
+        className="mb-[126px] mt-[30px] text-justify font-jakarta"
         data-aos="fade-up"
       >
         {data.text}
