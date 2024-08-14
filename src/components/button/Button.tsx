@@ -19,11 +19,9 @@ export function Button(props: any) {
   }
 
   if (color === "primary") {
-    buttonColor =
-      "outline-primary hover:outline-primary bg-primary hover:text-primary";
+    buttonColor = "outline-primary hover:outline-primary  hover:text-primary";
   } else if (color === "secondary") {
-    buttonColor =
-      "outline-secondary hover:outline-secondary bg-secondary hover:text-secondary";
+    buttonColor = "outline-secondary hover:outline-secondary  hover:";
   }
 
   const buttons = [];
@@ -31,7 +29,7 @@ export function Button(props: any) {
     buttons.push(
       <button
         key={i}
-        className={`relative h-fit w-fit rounded-[10px] font-jakarta text-white outline duration-300 hover:bg-white ${buttonSize} ${buttonColor} ${className}`}
+        className={`relative h-fit w-fit rounded-[10px] font-jakarta outline duration-300 hover:bg-white ${buttonSize} ${buttonColor} ${className}`}
         onClick={
           back == false ? () => router.push(href[i]) : () => router.back()
         }

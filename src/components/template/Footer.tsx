@@ -7,11 +7,12 @@ import { useEffect } from "react";
 
 export function Footer() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000, offset: 10 });
+    AOS.refresh();
   }, []);
   return (
     <>
-      <Container className="rounded-t-[20px] bg-secondary font-jakarta text-white">
+      <Container className="rounded-t-[20px] border-t-2 border-primary bg-secondary font-jakarta text-white">
         <div className="mb-[26.75px] mt-[70px] flex h-full w-full flex-col items-start justify-start gap-y-[32px] lg:flex-row lg:justify-between">
           <div
             className="flex flex-col items-start gap-y-[16px]"

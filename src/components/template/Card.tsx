@@ -6,7 +6,7 @@ export function Card(props: any) {
 
   return (
     <>
-      <article className="article-wrapper w-full rounded-[14px] border bg-primary duration-300 hover:cursor-pointer lg:h-[324px] lg:max-w-[305px] xl:h-[288px]">
+      <article className="article-wrapper w-full rounded-[14px] border bg-[var(--color-bg)] duration-300 hover:cursor-pointer lg:h-[324px] lg:max-w-[305px] xl:h-[288px]">
         <div className="container-project rounded-lg">
           <Image
             src={image}

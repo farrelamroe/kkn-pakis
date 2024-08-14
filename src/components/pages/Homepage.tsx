@@ -49,25 +49,57 @@ export function Homepage() {
       {/* Tentang Pakis */}
       <Container>
         <div
-          className="relative my-[50px] h-full rounded-[54px] bg-secondary"
+          className="relative my-[50px] h-full rounded-[54px]"
           data-aos="zoom-in"
         >
           <div className="relative mx-[100px] flex flex-col items-center justify-between gap-x-[24px] gap-y-[40px] py-[65px] lg:flex-row">
-            <Image
-              src="/peta-pakis.png"
-              width={1000}
-              height={1000}
-              alt="Peta pakis"
-              className="h-full min-w-[250px] lg:max-w-[400px] xl:max-w-[615px]"
-              data-aos="fade-right"
-              data-aos-delay="500"
-            />
-            <div className="flex flex-col items-center gap-y-[36px]">
+            <div className="noselect container h-full min-w-[250px]">
+              <div className="canvas">
+                <div className="tracker tr-1"></div>
+                <div className="tracker tr-2"></div>
+                <div className="tracker tr-3"></div>
+                <div className="tracker tr-4"></div>
+                <div className="tracker tr-5"></div>
+                <div className="tracker tr-6"></div>
+                <div className="tracker tr-7"></div>
+                <div className="tracker tr-8"></div>
+                <div className="tracker tr-9"></div>
+                <div className="tracker tr-10"></div>
+                <div className="tracker tr-11"></div>
+                <div className="tracker tr-12"></div>
+                <div className="tracker tr-13"></div>
+                <div className="tracker tr-14"></div>
+                <div className="tracker tr-15"></div>
+                <div className="tracker tr-16"></div>
+                <div className="tracker tr-17"></div>
+                <div className="tracker tr-18"></div>
+                <div className="tracker tr-19"></div>
+                <div className="tracker tr-20"></div>
+                <div className="tracker tr-21"></div>
+                <div className="tracker tr-22"></div>
+                <div className="tracker tr-23"></div>
+                <div className="tracker tr-24"></div>
+                <div className="tracker tr-25"></div>
+                <div id="card">
+                  <Image
+                    src="/peta-pakis.png"
+                    width={1000}
+                    height={1000}
+                    alt="Peta pakis"
+                    className="h-full min-w-[250px] lg:max-w-[400px] xl:max-w-[615px]"
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="cardsInfo flex flex-col items-center gap-y-[36px]">
               {dataBeranda.map(({ text, image, end }, i) => {
                 return (
                   <>
                     <div
-                      className="flex w-full flex-row items-center gap-x-[9px] rounded-[16px] bg-red px-[20px] py-[33px] lg:px-[35px]"
+                      className="cardInfo flex w-full flex-row items-center gap-x-[9px] rounded-[16px] bg-red px-[20px] py-[33px] lg:px-[35px]"
                       key={i}
                       data-aos="fade-left"
                     >
@@ -94,12 +126,12 @@ export function Homepage() {
       {/* Pak Dimas */}
       <Container>
         <div
-          className="relative my-[50px] h-full rounded-[54px] bg-red px-[100px]"
+          className="cardDeveloper relative my-[50px] h-full overflow-hidden rounded-[54px] bg-red px-[100px]"
           data-aos="zoom-in"
         >
-          <div className="relative flex h-full flex-col items-center justify-between gap-[70px] py-[65px] lg:flex-row">
+          <div className="cardDeveloper-info relative flex h-full flex-col items-center justify-between gap-[70px] py-[65px] lg:flex-row">
             <div
-              className="relative h-full max-h-[350px] w-full min-w-[200px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
+              className="cardDeveloper-avatar relative h-full max-h-[350px] w-full min-w-[200px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
               data-aos="fade-right"
               data-aos-delay="500"
             >
@@ -137,7 +169,7 @@ export function Homepage() {
             return (
               <>
                 <div
-                  className="cardDeveloper h-[525px] w-full max-w-[300px] rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
+                  className="cardDeveloper h-[525px] w-full max-w-[300px] overflow-hidden rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
                   data-aos="zoom-in"
                 >
                   <div className="cardDeveloper-info">

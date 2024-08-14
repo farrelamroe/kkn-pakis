@@ -16,7 +16,7 @@ export function MainHero(props: any) {
         alt=""
         height={10000}
         width={10000}
-        className="mx-[50px] mb-[55px] mt-[120px] h-[490px] w-[calc(100%-100px)] rounded-[24px] object-cover object-center text-white"
+        className="mx-[50px] mb-[55px] mt-[120px] h-[490px] w-[calc(100%-100px)] rounded-[24px] object-cover object-center"
       />
       <Container>
         <div className="relative top-[40%] xs:top-[50%] lg:top-[30%]">

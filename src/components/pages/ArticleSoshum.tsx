@@ -48,10 +48,10 @@ export function ArticleSoshum({ href }: any) {
         <li>{data.location}</li>
       </ul>
       <div data-aos="fade-up" data-aos-delay="600">
-        <H1 className="mt-[15px] font-alatsi text-secondary">{data.title}</H1>
+        <H1 className="mt-[15px] font-alatsi">{data.title}</H1>
       </div>
       <div
-        className="mb-[126px] mt-[30px] text-justify font-jakarta text-secondary"
+        className="mb-[126px] mt-[30px] text-justify font-jakarta"
         data-aos="fade-up"
       >
         {data.text}
