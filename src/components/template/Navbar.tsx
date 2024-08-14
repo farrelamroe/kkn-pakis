@@ -31,10 +31,10 @@ export function Navbar() {
       <div
         className={`fixed z-[110] h-[82px] w-[100%] transform rounded-b-[8px] text-center font-jakarta duration-[2000ms] ${hidden ? "-top-full" : "top-0"}`}
       >
-        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-[0px_4px_10px_-5px_var(--color-text)] bg-[var(--color-bg)] text-[var(--color-text)]">
+        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] bg-[var(--color-bg)] px-5 text-[var(--color-text)] shadow-[0px_4px_10px_-5px_var(--color-text)]">
           <div className="flex flex-row items-center">
             <Link href="/">
-              <Image
+              <img
                 src="/logo-pakis.png"
                 width={50}
                 height={40}

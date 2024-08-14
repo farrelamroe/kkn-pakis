@@ -81,7 +81,7 @@ export function Homepage() {
                 <div className="tracker tr-24"></div>
                 <div className="tracker tr-25"></div>
                 <div id="card">
-                  <Image
+                  <img
                     src="/peta-pakis.png"
                     width={1000}
                     height={1000}
@@ -174,7 +174,7 @@ export function Homepage() {
                 >
                   <div className="cardDeveloper-info">
                     <div className="cardDeveloper-avatar relative max-h-[220] w-full max-w-[205px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]">
-                      <Image
+                      <img
                         src={image}
                         width={1000}
                         height={1000}
