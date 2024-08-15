@@ -2,11 +2,12 @@
 import React from "react";
 import { useTheme } from "@/components/template/ThemeContext";
 
-export const ThemeSwitcher: React.FC = () => {
+export function ThemeSwitcher(props: any) {
   const { theme, toggleTheme } = useTheme();
+  const {className} = props
 
   return (
-    <label className="theme-switch">
+    <label className={`theme-switch ${className}`}>
       <input
         type="checkbox"
         className="theme-switch__checkbox"

@@ -31,7 +31,7 @@ export function Navbar() {
       <div
         className={`fixed z-[110] h-[82px] w-[100%] transform rounded-b-[8px] text-center font-jakarta duration-[2000ms] ${hidden ? "-top-full" : "top-0"}`}
       >
-        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] px-5 shadow-[0px_4px_10px_-5px_var(--color-text)] bg-[var(--color-bg)] text-[var(--color-text)]">
+        <div className="relative flex h-full flex-row items-center justify-between rounded-b-[8px] bg-[var(--color-bg)] px-5 text-[var(--color-text)] shadow-[0px_4px_10px_-5px_var(--color-text)]">
           <div className="flex flex-row items-center">
             <Link href="/">
               <Image
@@ -68,7 +68,7 @@ export function Navbar() {
               <span></span>
               <span></span>
             </label>
-            <ThemeSwitcher />
+            <ThemeSwitcher className="hidden sm:block" />
           </div>
         </div>
       </div>
@@ -82,13 +82,16 @@ export function Navbar() {
           return (
             <>
               <a href={href} key={title}>
-                <H2 className="whitespace-nowrap pl-[50px] duration-300 hover:cursor-pointer hover:font-bold">
+                <H2 className="underline-animation whitespace-nowrap pl-[50px] duration-300 hover:cursor-pointer hover:font-bold">
                   {title}
                 </H2>
               </a>
             </>
           );
         })}
+        <div className="ml-[50px]">
+          <ThemeSwitcher className="block sm:hidden" />
+        </div>
       </div>
     </>
   );

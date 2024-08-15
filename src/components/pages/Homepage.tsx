@@ -7,6 +7,7 @@ import {
   dataBeranda,
   dataDeveloper,
   Counter,
+  H3,
 } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
@@ -164,6 +165,10 @@ export function Homepage() {
         <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
           Meet Our Developer
         </H1>
+        <H3 className="pt-[24px]">
+          Arahkan kursor atau klik kartu di bawah ini untuk melihat
+          profil linkedin dan github
+        </H3>
         <div className="my-12 flex flex-row flex-wrap items-center justify-center gap-[24px]">
           {dataDeveloper.map(({ name, image, position, github, linkedin }) => {
             return (
